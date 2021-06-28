@@ -1,0 +1,99 @@
+/* canada */
+
+#canada {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./contrii/mario-mendez-MxxLminkATY-unsplash.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 40vh;
+
+}
+/* 
+.felx__i {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+
+.cont__ry {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+/* .hom__e{
+
+} */
+.head {
+    font-size: 10rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.senta li {
+    font-size: 1.2rem;
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-social li {
+    margin-left: 20px;
+    padding-top: 1rem;
+}
+
+.footer-social li i {
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.bg__color {
+    background-color: #00008B;
+}
+
+.ul {
+    list-style: none;
+    padding: 0;
+}
+
+.li {
+    padding-left: 1.3em;
+    line-height: 1.2;
+    margin: 10px;
+    text-align: justify;
+
+}
+
+.li:before {
+    content: "\f785";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.3em;
+    color: #ff0000;
+    font-weight: bold;
+
+}
+
+.copyrigh {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    text-align: center;
+
+}
+
+.footer-logo img {
+    margin-left: 68px;
+}
