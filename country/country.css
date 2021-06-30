@@ -1,5 +1,101 @@
 /* canada */
 
+.loader {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 9999999;
+  }
+  
+  .loader .loader-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 140px;
+    height: 140px;
+    border: 5px solid #ebebec;
+    border-radius: 50%;
+  }
+  
+  .loader .loader-container:before {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 140px;
+    height: 140px;
+    border-top: 4px solid #21a7d0;
+    border-radius: 50%;
+    animation: loaderspin 1.8s infinite ease-in-out;
+    -webkit-animation: loaderspin 1.8s infinite ease-in-out;
+  }
+  
+  .loader .loader-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+  }
+  
+  .loader .loader-icon img {
+    animation: loaderpulse alternate 900ms infinite;
+    width: 100px;
+    margin-left: -1rem;
+  }
+  
+  .loader.orange-color .loader-container:before {
+    border-color: #ff5421;
+  }
+  
+  .loader.yellow-color .loader-container:before {
+    border-color: #f4bf00;
+  }
+  
+  .loader.purple-color .loader-container:before {
+    border-color: #4e49a1;
+  }
+  
+  .loader.green-color .loader-container:before {
+    border-color: #0c8b51;
+  }
+  
+  @keyframes loaderspin {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+  
+    100% {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+  
+  @-webkit-keyframes loaderspin {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+  
+    100% {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+  
+  @keyframes loaderpulse {
+    0% {
+      transform: scale(1);
+    }
+  
+    100% {
+      transform: scale(1.2);
+    }
+  }
+
 #canada {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./contrii/mario-mendez-MxxLminkATY-unsplash.jpg");
     background-attachment: fixed;
@@ -8,6 +104,7 @@
     min-height: 40vh;
 
 }
+
 /* 
 .felx__i {
     display: flex;
@@ -69,7 +166,7 @@ p {
     padding-left: 1.3em;
     line-height: 1.2;
     margin: 10px;
-    text-align: justify;
+    /* text-align: justify; */
 
 }
 
@@ -96,4 +193,164 @@ p {
 
 .footer-logo img {
     margin-left: 68px;
+}
+
+.image {
+    width: 150px;
+}
+
+@media screen and (max-width:575px) {
+    .head {
+        font-size: 7rem;
+        padding-top: 1rem;
+    }
+
+    .canada {
+        margin-left: 10px;
+        padding-top: 1rem;
+    }
+
+    #canada {
+        min-height: 30vh;
+    }
+
+    .footer-logo img {
+        margin-left: 87px;
+    }
+
+    .footer-social {
+        padding-left: 0rem;
+        margin-left: -2rem;
+    }
+
+    .image {
+        width: 97px;
+        padding-top: 2rem;
+    }
+
+    .australia {
+        padding-top: 2rem;
+        font-size: 2rem;
+    }
+
+    .united {
+        font-size: 2rem;
+        padding-top: 2rem;
+    }
+
+
+
+}
+
+@media screen and (min-width:576px) {
+    .head {
+        font-size: 7rem;
+        padding-top: 1rem;
+    }
+    .footer-logo img {
+        margin-left: 167px;
+    }
+    #canada {
+        min-height: 25vh;
+    }
+    .footer-social {
+        padding-left: 0;
+        margin-left: -2rem;
+    }
+    .image {
+        width: 120px;
+        padding-top: 1rem;
+    }
+    .canada {
+        margin-left: 10px;
+        padding-top: 1rem;
+        font-size: 2.5rem;
+    }
+    .australia {
+        padding-top: 1rem;
+        font-size: 2rem;
+    }
+
+    .united {
+        font-size: 1rem;
+        padding-top: 2rem;
+    }
+
+
+}
+
+@media screen and (min-width:768px) {
+    #canada {
+        min-height: 28vh;
+    }
+    .australia {
+        padding-top: 1.5rem;
+        font-size: 2rem;
+    }
+    .canada {
+        margin-left: 10px;
+        padding-top: 1rem;
+        font-size: 2rem;
+    }
+    .image {
+        width: 120px;
+        padding-top: 1rem;
+    }
+    .united {
+        font-size: 2rem;
+        padding-top: 1rem;
+    }
+    .footer-logo img {
+        margin-left: 253px;
+    }
+
+    .footer-social {
+        padding-left: 0;
+        margin-left: -2rem;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    .footer-logo img {
+        margin-left: 2rem;
+    }
+
+    .footer-social {
+        padding-left: 0;
+        margin-left: -2rem;
+    }
+    .canada {
+        margin-left: 10px;
+        padding-top: 1rem;
+        font-size: 2rem;
+    }
+    #canada {
+        min-height: 30vh;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .canada {
+        margin-left: 10px;
+        padding-top: 1rem;
+        font-size: 2.5rem;
+    }
+    .head {
+        font-size: 10rem;
+    }
+    .united {
+        font-size: 2.5rem;
+        padding-top: 2rem;
+    }
+    .australia {
+        padding-top: 2rem;
+        font-size: 2.5rem;
+    }
+    #canada {
+        min-height: 40vh;
+    }
+    .image {
+        width: 150px;
+    }
 }
