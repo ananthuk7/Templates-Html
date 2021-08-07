@@ -139,12 +139,16 @@ iframe{
 .info a{
     color:#000;
     margin-bottom:5px;
+    text-decoration: none;
 }
 .border-top-dark{
     border-top:2px solid #000;
     padding-top: .5rem;
     padding-bottom:.5rem;
    
+}
+.icon a:hover{
+    color:rgb(46, 216, 117)
 }
 #copyright{
     background-color:#000;
