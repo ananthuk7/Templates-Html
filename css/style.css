@@ -372,10 +372,41 @@ iframe {
     margin-top: 2.5rem;
 }
 
+/* contact */
+.col-sm-10 textarea {
+    width: 100%;
+    height: 150px;
+}
 
 
+/* login */
+.login {
+    width: 80%;
+    border: 1px solid #d3d3d3;
+    padding:1rem;
+}
+.login form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 
+/* register */
+.register {
+    border: 1px solid #d3d3d3;
+    padding:1rem;
+}
+.register form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.register .colo{
+    text-decoration: none;
+    color:rgb(46, 216, 117)
+}
+.register .colo:hover{
+    color:rgb(155, 75, 11)
+}
 @media screen and (max-width:991px) {
 
 
