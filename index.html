@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,26 +36,39 @@
                         <a class="nav-link" href="./Contact.html">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./Login.html">Login</a>
+                        <a class="nav-link color-green " href="./Login.html">Login</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
+                <!-- <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-                </form>
+                </form> -->
 
             </div>
         </div>
     </nav>
+    <section id="map">
+        <div class="container-fluid over">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15757.908790966923!2d76.52586946894735!3d9.111297282441177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0603249ffabba9%3A0x13de2bf16874e7e9!2sKurungappally%20Masjid(Vavvakkavu%20Muslim%20Jama-ath)!5e0!3m2!1sen!2sin!4v1628145793593!5m2!1sen!2sin"
+                height="300" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+            <div class="searching mx-auto">
+                <form action="">
+                    <input type="search" name="" id="" placeholder="search" required>
+                    <button class="btn btn-outline-dark" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
     <section id="catagories">
-        <div class="container">
-            <div class="list">
-                <p>catagories</p>
-                <a href="./vegetables/vegetable.html">Vegetables</a>
-                <a href="./Fruits/Fruits.html">Fruits</a>
-                <a href="./Freshleaves/freshLeaves.html">Fresh Leaves</a>
+        <div class="container-fluid">
+            <div class="list1">
+                <a class="color-brown" href="./vegetables/vegetable.html">Vegetables</a>
+                <a class="color-green" href="./Fruits/Fruits.html">Fruits</a>
+                <a class="color-brown" href="./Freshleaves/freshLeaves.html">Fresh Leaves</a>
                 <div class="dropdown">
-                    <a class="btn dropdown-toggle" href="./items/Spices.html" role="button" id="dropdownMenuLink"
+                    <a class="btn  dropdown-toggle color-green" href="./items/Spices.html" role="button" id="dropdownMenuLink"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Spices
                     </a>
@@ -66,7 +79,7 @@
                     </div>
                 </div>
                 <div class="dropdown">
-                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                    <a class="btn dropdown-toggle color-brown" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         Sea Food
                     </a>
@@ -78,7 +91,7 @@
                     </div>
                 </div>
                 <div class="dropdown">
-                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                    <a class="btn dropdown-toggle color-green" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         Cooking Oils
                     </a>
@@ -90,7 +103,7 @@
                     </div>
                 </div>
                 <div class="dropdown">
-                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                    <a class="btn dropdown-toggle color-brown" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         Poultry
                     </a>
@@ -104,7 +117,7 @@
                     </div>
                 </div>
                 <div class="dropdown">
-                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                    <a class="btn dropdown-toggle color-green" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         Commodities
                     </a>
@@ -117,453 +130,221 @@
                         <a class="dropdown-item" href="./Commodities/Millets.html">Millets</a>
                     </div>
                 </div>
-                <a href="./others/Others.html">Others</a>
+                <a  class="color-brown" href="./others/Others.html">Others</a>
             </div>
         </div>
     </section>
 
     <section id="latest">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-8"><img src="./images/Banner 1a.png" alt=""></div>
-                <div class="col-lg-4 mt-3">
-                    <div class="events">
-                        <h3>Latest Ads</h3>
-                        <a href="./Commodities/WhitericeProct.html"> Rice</a>
-                        <a href="./others/cake.html">Cake</a>
-                        <a href="./Poultry/eggprod.html"> Farm Fresh Eggs - Naadan </a>
-                        <a href="./Commodities/ToorDal.html">Toor Daal - Thuvaraparippu</a>
-                        <a href="./seafood/prawns.html">Prawns </a>
-                        <a href="./seafood/fish.html">Fish</a>
-                        <a href="./Cooking oils/coconutproduc.html">Coconut Oil</a>
-                        <a href="./vegetables/brinjal.html">Brinjal </a>
-                        <a href="./Fruits/jackfruit.html">Jack fruit</a>
-                        <a href="./Fruits/lemon.html">Lemons</a>
-
-                    </div>
+                <div class="col-lg-8 mt-2"><img src="./vegetables/vegi/vegetables.1624012222 (1).png" alt=""></div>
+                <div class="col-lg-4 mt-2">
+                    <iframe height="258" src="https://www.youtube.com/embed/ScMzIvxBSi4" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
                 </div>
 
             </div>
     </section>
 
     <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="owl-carousel owl-theme">
-                        <div class="item">
-                            <div class="card">
-                                <div class="card-img">
-                                    <img src="./images/apples_1.jpg" alt="" srcset="">
-                                </div>
-                                <div class="content">
-                                    <h3>Apples</h3>
-                                    <p> Ripe Red Apples from Simla…</p>
-                                </div>
-
+        <div class="container-fluid ">
+            <div class=" p-3 border">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="./images/apples_1.jpg" alt="" srcset="">
                             </div>
+                            <div class="content">
+                                <h3>Apples</h3>
+                                <p> Ripe Red Apples from Simla…</p>
+                            </div>
+    
                         </div>
-                        <div class="item">
-                            <div class="card">
-                                <div class="card-img">
-                                    <img src="./images/apples_1.jpg" alt="" srcset="">
-                                </div>
-                                <div class="content">
-                                    <h3>Apples</h3>
-                                    <p> Ripe Red Apples from Simla…</p>
-                                </div>
-
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="./images/apples_1.jpg" alt="" srcset="">
                             </div>
+                            <div class="content">
+                                <h3>Apples</h3>
+                                <p> Ripe Red Apples from Simla…</p>
+                            </div>
+    
                         </div>
-                        <div class="item">
-                            <div class="card">
-                                <div class="card-img">
-                                    <img src="./images/apples_1.jpg" alt="" srcset="">
-                                </div>
-                                <div class="content">
-                                    <h3>Apples</h3>
-                                    <p> Ripe Red Apples from Simla…</p>
-                                </div>
-
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="./images/apples_1.jpg" alt="" srcset="">
                             </div>
+                            <div class="content">
+                                <h3>Apples</h3>
+                                <p> Ripe Red Apples from Simla…</p>
+                            </div>
+    
                         </div>
-                        <div class="item">
-                            <div class="card">
-                                <div class="card-img">
-                                    <img src="./images/apples_1.jpg" alt="" srcset="">
-                                </div>
-                                <div class="content">
-                                    <h3>Apples</h3>
-                                    <p> Ripe Red Apples from Simla…</p>
-                                </div>
-
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="./images/apples_1.jpg" alt="" srcset="">
                             </div>
+                            <div class="content">
+                                <h3>Apples</h3>
+                                <p> Ripe Red Apples from Simla…</p>
+                            </div>
+    
                         </div>
-                        <div class="item">
-                            <div class="card">
-                                <div class="card-img">
-                                    <img src="./images/apples_1.jpg" alt="" srcset="">
-                                </div>
-                                <div class="content">
-                                    <h3>Apples</h3>
-                                    <p> Ripe Red Apples from Simla…</p>
-                                </div>
-
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="./images/apples_1.jpg" alt="" srcset="">
                             </div>
+                            <div class="content">
+                                <h3>Apples</h3>
+                                <p> Ripe Red Apples from Simla…</p>
+                            </div>
+    
                         </div>
-                        <div class="item">
-                            <div class="card">
-                                <div class="card-img">
-                                    <img src="./images/apples_1.jpg" alt="" srcset="">
-                                </div>
-                                <div class="content">
-                                    <h3>Apples</h3>
-                                    <p> Ripe Red Apples from Simla…</p>
-                                </div>
-
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="./images/apples_1.jpg" alt="" srcset="">
                             </div>
+                            <div class="content">
+                                <h3>Apples</h3>
+                                <p> Ripe Red Apples from Simla…</p>
+                            </div>
+    
                         </div>
-                        <div class="item">
-                            <div class="card">
-                                <div class="card-img">
-                                    <img src="./images/apples_1.jpg" alt="" srcset="">
-                                </div>
-                                <div class="content">
-                                    <h3>Apples</h3>
-                                    <p> Ripe Red Apples from Simla…</p>
-                                </div>
-
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="./images/apples_1.jpg" alt="" srcset="">
                             </div>
+                            <div class="content">
+                                <h3>Apples</h3>
+                                <p> Ripe Red Apples from Simla…</p>
+                            </div>
+    
                         </div>
-                        <div class="item">
-                            <div class="card">
-                                <div class="card-img">
-                                    <img src="./images/apples_1.jpg" alt="" srcset="">
-                                </div>
-                                <div class="content">
-                                    <h3>Apples</h3>
-                                    <p> Ripe Red Apples from Simla…</p>
-                                </div>
-
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="./images/apples_1.jpg" alt="" srcset="">
                             </div>
+                            <div class="content">
+                                <h3>Apples</h3>
+                                <p> Ripe Red Apples from Simla…</p>
+                            </div>
+    
                         </div>
-                        <div class="item">
-                            <div class="card">
-                                <div class="card-img">
-                                    <img src="./images/apples_1.jpg" alt="" srcset="">
-                                </div>
-                                <div class="content">
-                                    <h3>Apples</h3>
-                                    <p> Ripe Red Apples from Simla…</p>
-                                </div>
-
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="./images/apples_1.jpg" alt="" srcset="">
                             </div>
+                            <div class="content">
+                                <h3>Apples</h3>
+                                <p> Ripe Red Apples from Simla…</p>
+                            </div>
+    
                         </div>
-                        <div class="item">
-                            <div class="card">
-                                <div class="card-img">
-                                    <img src="./images/apples_1.jpg" alt="" srcset="">
-                                </div>
-                                <div class="content">
-                                    <h3>Apples</h3>
-                                    <p> Ripe Red Apples from Simla…</p>
-                                </div>
-
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="./images/apples_1.jpg" alt="" srcset="">
                             </div>
+                            <div class="content">
+                                <h3>Apples</h3>
+                                <p> Ripe Red Apples from Simla…</p>
+                            </div>
+    
                         </div>
-                        <div class="item">
-                            <div class="card">
-                                <div class="card-img">
-                                    <img src="./images/apples_1.jpg" alt="" srcset="">
-                                </div>
-                                <div class="content">
-                                    <h3>Apples</h3>
-                                    <p> Ripe Red Apples from Simla…</p>
-                                </div>
-
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="./images/apples_1.jpg" alt="" srcset="">
                             </div>
+                            <div class="content">
+                                <h3>Apples</h3>
+                                <p> Ripe Red Apples from Simla…</p>
+                            </div>
+    
                         </div>
-                        <div class="item">
-                            <div class="card">
-                                <div class="card-img">
-                                    <img src="./images/apples_1.jpg" alt="" srcset="">
-                                </div>
-                                <div class="content">
-                                    <h3>Apples</h3>
-                                    <p> Ripe Red Apples from Simla…</p>
-                                </div>
-
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="./images/apples_1.jpg" alt="" srcset="">
                             </div>
+                            <div class="content">
+                                <h3>Apples</h3>
+                                <p> Ripe Red Apples from Simla…</p>
+                            </div>
+    
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4"><iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15757.908790966923!2d76.52586946894735!3d9.111297282441177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0603249ffabba9%3A0x13de2bf16874e7e9!2sKurungappally%20Masjid(Vavvakkavu%20Muslim%20Jama-ath)!5e0!3m2!1sen!2sin!4v1628145793593!5m2!1sen!2sin"
-                        height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
             </div>
-        </div>
+            
+
         </div>
     </section>
     <section id="categ">
-        <div class="container">
-            <h2 class="heading pb-3">CATAGORIES</h2>
+        <div class="container-fluid">
+            <h2 class="heading pb-3 text-center">Checkout our popular catagories</h2>
             <div class="row">
-                <div class="col-lg-4 col-sm-6 mb-3">
-                    <div class="orders">
-                        <div class="head">
-                            <img src="./images/CAT/vegetables.1624012222.png" alt="" loading="lazy">
-                            <a href="./vegetables/vegetable.html">VEGETABLES</a>
-                        </div>
-                        <div class="body">
-                            <!-- <div class="ite mx-auto">
-                                <a href="">demo</a>
-                                <div>
-                                    <p>0</p>
-                                </div>
-
-                            </div>
-                            <div class="ite mx-auto">
-                                <a href="">demo</a>
-                                <div>
-                                    <p>0</p>
-                                </div>
-
-                            </div> -->
-                        </div>
+                <div class="col-lg-3 mt-2 col-sm-6">
+                    <div class="itemcard itemcardv ">
+                        <a href="./vegetables/vegetable.html">Vegetables</a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 mb-3">
-                    <div class="orders">
-                        <div class="head">
-                            <img src="./images/CAT/fruits.1623956947.png" alt="" loading="lazy">
-                            <a href="./Fruits/Fruits.html">FRUITS</a>
-                        </div>
-                        <div class="body">
-                            <!-- <div class="ite mx-auto">
-                                <a href="">demo</a>
-                                <div>
-                                    <p>0</p>
-                                </div>
-
-                            </div>
-                            <div class="ite mx-auto">
-                                <a href="">demo</a>
-                                <div>
-                                    <p>0</p>
-                                </div>
-
-                            </div> -->
-                        </div>
+                <div class="col-lg-3 mt-2 col-sm-6">
+                    <div class="itemcard itemcardf">
+                        <a href="./Fruits/Fruits.html">Fruits</a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 mb-3">
-                    <div class="orders">
-                        <div class="head">
-                            <img src="./images/CAT/fresh-leaves.1623958278.png" alt="" loading="lazy">
-                            <a href="./Freshleaves/freshLeaves.html">FRESH LEAVES</a>
-                        </div>
-                        <div class="body">
-                            <!-- <div class="ite mx-auto">
-                                <a href="">demo</a>
-                                <div>
-                                    <p>0</p>
-                                </div>
-
-                            </div>
-                            <div class="ite mx-auto">
-                                <a href="">demo</a>
-                                <div>
-                                    <p>0</p>
-                                </div>
-
-                            </div> -->
-                        </div>
+                <div class="col-lg-3 mt-2 col-sm-6">
+                    <div class="itemcard itemcardl">
+                        <a href="./Freshleaves/freshLeaves.html">Fresh Leaves</a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 mb-3">
-                    <div class="orders">
-                        <div class="head">
-                            <img src="./images/CAT/spices.1623958624.png" alt="" loading="lazy">
-                            <a href="./items/Spices.html">SPICES</a>
-                        </div>
-                        <div class="body">
-                            <div class="ite mx-auto">
-                                <a href="./Spices/groundSpices.html">ground spices</a>
-                                <div>
-                                    <p>0</p>
-                                </div>
-
-                            </div>
-                            <div class="ite mx-auto">
-                                <a href="./Spices/WholeSpices.html">whole spices</a>
-                                <div>
-                                    <p>0</p>
-                                </div>
-
-                            </div>
-                        </div>
+                <div class="col-lg-3 mt-2 col-sm-6">
+                    <div class="itemcard itemcards">
+                        <a href="./Spices/Spices.html">Spices</a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 mb-3">
-                    <div class="orders">
-                        <div class="head">
-                            <img src="./images/CAT/seafood.1623969066.png" alt="" loading="lazy">
-                            <a href="./seafood/SeaFood.html">SEA FOOD</a>
-                        </div>
-                        <div class="body">
-                            <div class="ite mx-auto">
-                                <a href="./seafood/seaMarine.html">marine/saltwater fish</a>
-                                <div>
-                                    <p>0</p>
-                                </div>
-
-                            </div>
-                            <div class="ite mx-auto">
-                                <a href="./seafood/seaFresh.html">fresh water fish</a>
-                                <div>
-                                    <p>0</p>
-                                </div>
-
-                            </div>
-                        </div>
+                <div class="col-lg-3 mt-2 col-sm-6">
+                    <div class="itemcard itemcardsf">
+                        <a href="./seafood/SeaFood.html">Sea Food</a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 mb-3">
-                    <div class="orders">
-                        <div class="head">
-                            <img src="./images/CAT/cooking-oil-home-made-cooking-oil.1623969897.png" alt=""
-                                loading="lazy">
-                            <a href="./Cooking oils/CookingOils.html">COOKING OILS</a>
-                        </div>
-                        <div class="body">
-                            <div class="ite mx-auto">
-                                <a href="./Cooking oils/coconutoil.html">coconut oil</a>
-                                <div>
-                                    <p>0</p>
-                                </div>
-
-                            </div>
-                            <div class="ite mx-auto">
-                                <a href="./Cooking oils/cookgan.html">gingelly oil</a>
-                                <div>
-                                    <p>0</p>
-                                </div>
-
-                            </div>
-                        </div>
+                <div class="col-lg-3 mt-2 col-sm-6">
+                    <div class="itemcard itemcardco">
+                        <a href="./Cooking oils/CookingOils.html">Cooking Oils</a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 mb-3">
-                    <div class="orders">
-                        <div class="head">
-                            <img src="./images/CAT/poultry.1623970197.png" alt="" loading="lazy">
-                            <a href="./Poultry/Poultry.html">POULTRY</a>
-                        </div>
-                        <div class="body">
-                            <div class="ite mx-auto">
-                                <a href="./Poultry/Chicken.html">chicken</a>
-                                <div>
-                                    <p>0</p>
-                                </div>
-                            </div>
-                            <div class="ite mx-auto">
-                                <a href="./Poultry/eggs.html">eggs</a>
-                                <div>
-                                    <p>0</p>
-                                </div>
-
-                            </div>
-                            <div class="ite mx-auto">
-                                <a href="./Poultry/Emu.html">emu</a>
-                                <div>
-                                    <p>0</p>
-                                </div>
-
-                            </div>
-                            <div class="ite mx-auto">
-                                <a href="./Poultry/kaada.html"> kaada</a>
-                                <div>
-                                    <p>0</p>
-                                </div>
-
-                            </div>
-                            <div class="ite mx-auto">
-                                <a href="./Poultry/duck.html"> duck</a>
-                                <div>
-                                    <p>0</p>
-                                </div>
-
-                            </div>
-                        </div>
+                <div class="col-lg-3 mt-2 col-sm-6">
+                    <div class="itemcard itemcardp">
+                        <a href="./Poultry/Poultry.html">Poultry</a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 mb-3">
-                    <div class="orders">
-                        <div class="head">
-                            <img src="./images/CAT/comodities.1623970583.png" alt="" loading="lazy">
-                            <a href="./Commodities/Commodities.html">COMMODITIES</a>
-                        </div>
-                        <div class="body">
-                            <div class="ite mx-auto">
-                                <a href="./Commodities/Rice.html">rice</a>
-                                <div>
-                                    <p>0</p>
-                                </div>
-                            </div>
-                            <div class="ite mx-auto">
-                                <a href="./Commodities/pulses.html"> pulses</a>
-                                <div>
-                                    <p>0</p>
-                                </div>
-
-                            </div>
-                            <div class="ite mx-auto">
-                                <a href="./Commodities/Lentils.html">lentils (daal/parippu)</a>
-                                <div>
-                                    <p>0</p>
-                                </div>
-
-                            </div>
-                            <div class="ite mx-auto">
-                                <a href="./Commodities/Grains.html"> grains</a>
-                                <div>
-                                    <p>0</p>
-                                </div>
-
-                            </div>
-                            <div class="ite mx-auto">
-                                <a href="./Commodities/Millets.html"> millets </a>
-                                <div>
-                                    <p>0</p>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-3">
-                    <div class="orders">
-                        <div class="head">
-                            <img src="./images/CAT/others.1623971134.png" alt="" loading="lazy">
-                            <a href="./others/Others.html">OTHERS</a>
-                        </div>
-                        <div class="body">
-                            <!-- <div class="ite mx-auto">
-                                <a href="">demo</a>
-                                <div>
-                                    <p>0</p>
-                                </div>
-
-                            </div>
-                            <div class="ite mx-auto">
-                                <a href="">demo</a>
-                                <div>
-                                    <p>0</p>
-                                </div>
-
-                            </div> -->
-                        </div>
+                <div class="col-lg-3 mt-2 col-sm-6">
+                    <div class="itemcard itemcardcs">
+                        <a href="./Commodities/Commodities.html">Commodities</a>
                     </div>
                 </div>
             </div>
@@ -571,10 +352,10 @@
 
     </section>
     <section id="footer">
-        <div class="container ">
+        <div class="container-fluid ">
             <div class="row border-top-dark">
                 <div class="col-lg-4">
-                    <div class="info">
+                    <div class="info pl-5">
                         <a href="">Torc</a>
                         <a href="./Aboutus.html">About Us</a>
                         <a href="./Contact.html">Contact Us</a>
@@ -643,7 +424,7 @@
                     items: 4
                 },
                 1000: {
-                    items: 5
+                    items: 7
                 }
             }
         })

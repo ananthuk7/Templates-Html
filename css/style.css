@@ -9,50 +9,123 @@ h6 {
 
 
 .navbar {
-    background-color: rgb(46, 216, 117);
+    background-color: #75B147;
 }
 
 .nav-item a {
-    color: #2d3e50 !important;
+    color: #3d271d !important;
     text-transform: uppercase;
     font-weight: bold;
     margin-right: 5px;
 }
+.nav-item a:hover{
+    color: #000 !important;
+}
 
+
+#map iframe {
+    height: 400px;
+}
+
+.over {
+    overflow: hidden;
+}
+
+.searching {
+    width: 80%;
+    position: relative;
+    top: -54px;
+    border-radius: 0 4px 4px 0;
+}
+
+.searching form {
+    width: 100%;
+    border-radius: 0 4px 4px 0;
+
+}
+
+.searching form input {
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border: 1px solid #d3d3d3;
+    border-radius: 0 4px 4px 0;
+
+}
+
+.searching form button {
+    position: absolute;
+    right: 1px;
+    padding: 0.7rem .75rem;
+    top: 1px;
+}
 
 .list {
     display: flex;
     justify-content: space-evenly;
 }
-
 .list p {
     color: rgb(155, 75, 11);
     font-weight: bold;
     font-size: 1.2rem;
     padding-top: 7px;
 }
+.list1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.color-brown{
+    background-color: #3d271d;
+    color:#75B147;
+}
+.color-green{
+    background-color: #75B147;
+    color: #3d271d;
+    border-radius: 8px;
+}
+
+.list1 a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 130px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 8px;
+    
+}
 
 .list a {
     text-decoration: none;
     font-size: 1rem;
+    border-radius: 8px;
     color: #000;
     padding-top: 10px;
+    
+    
 }
-
 .list a:hover {
-    color: rgb(46, 216, 117);
+    color: #75B147;
+}
+.list1 a:hover {
+    color: #fff;
 }
 
-#catagories {
+/* #catagories {
     padding: 1rem 0 2rem;
 
-}
+} */
 
 
 .dropdown-item {
     text-align: left !important;
 }
-
+.dropdown-item:hover{
+    color: #000 !important;
+}
 #latest {
     padding: 2rem;
 }
@@ -86,8 +159,12 @@ h6 {
 }
 
 .card {
-    height: 300px;
+    height: 320px;
     text-align: center;
+}
+
+.card-img {
+    border-bottom: 1px solid #d3d3d3;
 }
 
 #categ {
@@ -97,9 +174,17 @@ h6 {
 .heading {
     color: rgb(155, 75, 11);
     font-weight: bold;
+    text-decoration: underline;
 }
 
-.orders {
+.border {
+    border: 1px solid #d3d3d3;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+/* .orders {
     border: 1px solid #d3d3d3;
     border-radius: 4px;
 }
@@ -115,8 +200,9 @@ h6 {
     padding: .5rem;
     color: #000;
     text-decoration: none;
-    
+
 }
+
 .head a:hover {
     color: #fff;
 }
@@ -129,7 +215,7 @@ h6 {
     border-bottom: 1px solid #d3d3d3;
     width: 90%;
     padding: 0.5rem;
-    /* margin-bottom: 5px; */
+    margin-bottom: 5px;
 }
 
 .ite a {
@@ -147,7 +233,74 @@ h6 {
     text-align: center;
     font-size: 1rem;
     margin-top: auto;
-    margin-bottom:auto;
+    margin-bottom: auto;
+} */
+.itemcard {
+
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.itemcardv{
+    background-image: url(../vegetables/vegi/vegetables.1624012222\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.itemcardf{
+    background-image: url(../Fruits/fruits/fruits.1623956947.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.itemcardl{
+    background-image: url(../Freshleaves/leaf/fresh-leaves.1623958278.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.itemcards{
+    background-image: url(../Spices/spices/ground-spices.1623968083.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.itemcardsf{
+    background-image: url(../seafood/fish/marine-fish-salt-water-fish-sea-fish.1624558978.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.itemcardco{
+    background-image: url(../images/CAT/coconut-oil.1624559174.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.itemcardp{
+    background-image: url(../Poultry/poul/eggs.1624559829.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.itemcardcs{
+    background-image: url(../Commodities/com/millets-little-millets-foxtail-millets-ragi.1624615052.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.itemcard a {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    color: #fff;
+    padding: .5rem .7rem;
+    border-radius: 8px;
+    text-decoration: none;
 }
 
 iframe {
@@ -390,9 +543,10 @@ iframe {
 .login {
     width: 80%;
     border: 1px solid #d3d3d3;
-    padding:1rem;
+    padding: 1rem;
 }
-.login form{
+
+.login form {
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -401,29 +555,61 @@ iframe {
 /* register */
 .register {
     border: 1px solid #d3d3d3;
-    padding:1rem;
+    padding: 1rem;
 }
-.register form{
+
+.register form {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.register .colo{
+
+.register .colo {
     text-decoration: none;
-    color:rgb(46, 216, 117)
+    color: rgb(46, 216, 117)
 }
-.register .colo:hover{
-    color:rgb(155, 75, 11)
+
+.register .colo:hover {
+    color: rgb(155, 75, 11)
+}
+
+
+@media screen and (max-width:768px){
+    .searching{
+        width: 100%;
+        top: 0px;
+    }
+    
+}
+@media screen and (max-width:1227px)
+{
+    .list1 a{
+        width: 110px;
+        font-size:.8rem;
+        
+    }
+}
+@media screen and (max-width:1068px){
+    .list1 a{
+        width: 100px;
+    }
 }
 @media screen and (max-width:991px) {
 
 
+    .list1 {
+        flex-direction: column;
+    }
     .list {
         flex-direction: column;
+    }
+    .list1 a{
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
     }
 
 
 }
-
 @media screen and (max-width:532px) {
     .riceimg {
         flex-direction: column;
