@@ -21,6 +21,10 @@ h6 {
 .nav-item a:hover{
     color: #000 !important;
 }
+.breadcrumb-item a{
+    color:#000 !important;
+    text-decoration: none;
+}
 
 
 #map iframe {
