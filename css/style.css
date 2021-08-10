@@ -77,11 +77,11 @@ h6 {
 }
 .color-brown{
     background-color: #3d271d;
-    color:#75B147;
+    color:#C6D54F;
     font-weight: bold;
 }
 .color-green{
-    background-color: #75B147;
+    background-color: #C6D54F;
     color: #3d271d;
     border-radius: 8px;
     font-weight: bold;
@@ -110,7 +110,7 @@ h6 {
     
 }
 .list a:hover {
-    color: #75B147;
+    color: #C6D54F;
 }
 .list1 a:hover {
     color: #fff;
@@ -567,7 +567,7 @@ iframe {
 
 .register .colo {
     text-decoration: none;
-    color: rgb(46, 216, 117)
+    color: #C6D54F;
 }
 
 .register .colo:hover {
