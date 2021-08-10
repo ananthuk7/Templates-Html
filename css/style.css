@@ -78,11 +78,13 @@ h6 {
 .color-brown{
     background-color: #3d271d;
     color:#75B147;
+    font-weight: bold;
 }
 .color-green{
     background-color: #75B147;
     color: #3d271d;
     border-radius: 8px;
+    font-weight: bold;
 }
 
 .list1 a{
@@ -607,6 +609,16 @@ iframe {
         text-align: center;
         margin-top: 10px;
     }
+    .card h3{
+        font-size:1.5rem;
+        margin-top:10px;
+    }
+    .card p{
+        font-size:.9rem;
+    }
+   .heading{
+       font-size: 1.6rem;
+   }
 
 
 }
@@ -684,5 +696,15 @@ iframe {
 
     .product_head {
         text-align: center;
+    }
+    .heading{
+        font-size:1.4rem;
+        
+    }
+    .itemcard{
+        height: 100px;
+    }
+    .itemcard a{
+        font-size: .8rem;
     }
 }
