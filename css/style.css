@@ -130,7 +130,10 @@ h6 {
     text-align: left !important;
 }
 .dropdown-item:hover{
-    color: #000 !important;
+    color: #fff !important;
+    background-color: #C6D54F !important;
+    width: 100%;
+    border-radius:0;
 }
 #latest {
     padding: 2rem;
@@ -588,7 +591,9 @@ iframe {
     color: rgb(155, 75, 11)
 }
 
-
+.vision{
+    width: 100%;object-fit: cover;
+}
 
 @media screen and (max-width:1227px)
 {
