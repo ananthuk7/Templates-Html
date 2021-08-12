@@ -121,6 +121,12 @@ h6 {
     border-radius: 0;
 }
 
+.brand-name{
+    color: #C6D54F
+}
+.brand-name span{
+    font-size:1.3rem;
+}
 #latest {
     padding: 2rem;
 }
