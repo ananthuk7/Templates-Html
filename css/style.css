@@ -518,12 +518,27 @@ iframe {
     border: 1px solid #d3d3d3;
     padding: 1rem;
 }
-
+.phone{
+    width:80%;
+}
 .login form {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
+.sign-color{
+    background-color: #C6D54F;
+    color: #3d271d;
+}
+.regi-color{
+    background-color: #3d271d;
+    color: #C6D54F;
+}
+.regi-color:hover{
+    color: #fff;
+}
+.sign-color:hover{
+    color: #fff;
+}
 
 /* register */
 .register {
@@ -538,11 +553,11 @@ iframe {
 
 .register .colo {
     text-decoration: none;
-    color: rgb(46, 216, 117)
+    color: #C6D54F
 }
 
 .register .colo:hover {
-    color: rgb(155, 75, 11)
+    color: #3d271d
 }
 
 .vision {
