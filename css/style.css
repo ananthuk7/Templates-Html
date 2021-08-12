@@ -9,7 +9,8 @@ h6 {
 
 
 .navbar {
-    background-color: #C6D54F;;
+    background-color: #C6D54F;
+    ;
 }
 
 .nav-item a {
@@ -18,11 +19,13 @@ h6 {
     font-weight: bold;
     margin-right: 5px;
 }
-.nav-item a:hover{
+
+.nav-item a:hover {
     color: #000 !important;
 }
-.breadcrumb-item a{
-    color:#000 !important;
+
+.breadcrumb-item a {
+    color: #000 !important;
     text-decoration: none;
 }
 
@@ -65,33 +68,27 @@ h6 {
     top: 1px;
 }
 
-.list {
+
+.list1 {
+    
     display: flex;
     justify-content: space-evenly;
 }
-.list p {
-    color: rgb(155, 75, 11);
-    font-weight: bold;
-    font-size: 1.2rem;
-    padding-top: 7px;
-}
-.list1{
-    display: flex;
-    justify-content: space-evenly;
-}
-.color-brown{
+
+.color-brown {
     background-color: #3d271d;
-    color:#C6D54F;
+    color: #C6D54F;
     font-weight: bold;
 }
-.color-green{
+
+.color-green {
     background-color: #C6D54F;
     color: #3d271d;
     border-radius: 8px;
     font-weight: bold;
 }
 
-.list1 a{
+.list1 a {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -101,40 +98,29 @@ h6 {
     text-decoration: none;
     font-size: 1rem;
     border-radius: 8px;
-    
+
 }
 
-.list a {
-    text-decoration: none;
-    font-size: 1rem;
-    border-radius: 8px;
-    color: #000;
-    padding-top: 10px;
-    
-    
-}
-.list a:hover {
-    color: #C6D54F;
-}
+
+
 .list1 a:hover {
     color: #fff;
 }
 
-/* #catagories {
-    padding: 1rem 0 2rem;
 
-} */
 
 
 .dropdown-item {
     text-align: left !important;
 }
-.dropdown-item:hover{
+
+.dropdown-item:hover {
     color: #fff !important;
     background-color: #C6D54F !important;
     width: 100%;
-    border-radius:0;
+    border-radius: 0;
 }
+
 #latest {
     padding: 2rem;
 }
@@ -188,62 +174,13 @@ h6 {
 
 .border {
     border: 1px solid #d3d3d3;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-}
-
-/* .orders {
-    border: 1px solid #d3d3d3;
-    border-radius: 4px;
-}
-
-.head {
-    text-align: center;
-    background-color: rgb(46, 216, 117);
-    padding: .5rem;
-    border-radius: 4px;
-}
-
-.head a {
-    padding: .5rem;
-    color: #000;
-    text-decoration: none;
 
 }
-
-.head a:hover {
-    color: #fff;
+.youtube iframe{
+    height:100%;
 }
 
 
-.ite {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #d3d3d3;
-    width: 90%;
-    padding: 0.5rem;
-    margin-bottom: 5px;
-}
-
-.ite a {
-    color: #000;
-    text-decoration: none;
-    font-size: 1rem;
-}
-
-
-.ite div p {
-    color: white;
-    background-color: brown;
-    height: 30px;
-    width: 30px;
-    text-align: center;
-    font-size: 1rem;
-    margin-top: auto;
-    margin-bottom: auto;
-} */
 .itemcard {
 
     width: 100%;
@@ -254,49 +191,56 @@ h6 {
     border-radius: 8px;
 }
 
-.itemcardv{
+.itemcardv {
     background-image: url(../vegetables/vegi/vegetables.1624012222\ \(1\).png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.itemcardf{
+
+.itemcardf {
     background-image: url(../Fruits/fruits/fruits.1623956947.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.itemcardl{
+
+.itemcardl {
     background-image: url(../Freshleaves/leaf/fresh-leaves.1623958278.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.itemcards{
+
+.itemcards {
     background-image: url(../Spices/spices/ground-spices.1623968083.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.itemcardsf{
+
+.itemcardsf {
     background-image: url(../seafood/fish/marine-fish-salt-water-fish-sea-fish.1624558978.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.itemcardco{
+
+.itemcardco {
     background-image: url(../images/CAT/coconut-oil.1624559174.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.itemcardp{
+
+.itemcardp {
     background-image: url(../Poultry/poul/eggs.1624559829.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.itemcardcs{
+
+.itemcardcs {
     background-image: url(../Commodities/com/millets-little-millets-foxtail-millets-ragi.1624615052.png);
     background-position: center;
     background-size: cover;
@@ -327,19 +271,23 @@ iframe {
     justify-content: center;
     flex-direction: column;
 }
-.info h5{
-    font-size:1.1rem;
+
+.info h5 {
+    font-size: 1.1rem;
 }
-.info p{
+
+.info p {
     font-size: .9rem;
 }
+
 .info a {
     color: #000;
     margin-bottom: 5px;
     text-decoration: none;
     font-size: .9rem;
 }
-.info .mobile{
+
+.info .mobile {
     width: 200px;
 }
 
@@ -591,69 +539,83 @@ iframe {
     color: rgb(155, 75, 11)
 }
 
-.vision{
-    width: 100%;object-fit: cover;
+.vision {
+    width: 100%;
+    object-fit: cover;
 }
 
-@media screen and (max-width:1227px)
-{
-    .list1 a{
+@media screen and (max-width:1227px) {
+    .list1 a {
         width: 110px;
-        font-size:.8rem;
-        
+        font-size: .8rem;
+
     }
 }
-@media screen and (max-width:1068px){
-    .list1 a{
+
+@media screen and (max-width:1068px) {
+    .list1 a {
         width: 100px;
     }
 }
+
 @media screen and (max-width:991px) {
 
 
     .list1 {
         flex-direction: column;
     }
-    .list {
-        flex-direction: column;
-    }
-    .list1 a{
+
+    .list1 a {
         width: 100%;
         text-align: center;
         margin-top: 10px;
     }
-    .card h3{
-        font-size:1.5rem;
-        margin-top:10px;
+
+    .card h3 {
+        font-size: 1.5rem;
+        margin-top: 10px;
     }
-    .card p{
-        font-size:.9rem;
+
+    .card p {
+        font-size: .9rem;
     }
-   .heading{
-       font-size: 1.6rem;
-   }
+
+    .heading {
+        font-size: 1.6rem;
+    }
+    .youtube iframe {
+        height: 200px;
+    }
 
 
 }
-@media screen and (max-width:768px){
-    .searching{
+
+@media screen and (max-width:768px) {
+    .searching {
         width: 100%;
         top: 0px;
     }
-    
+
 }
-@media screen and (max-width:572px){
-    .foot{
+
+@media screen and (max-width:572px) {
+    .foot {
         border-top: 2px solid #000;
-        padding-top:1rem;
+        padding-top: 1rem;
     }
-    .connect{
-        padding-top:1rem;
+
+    .connect {
+        padding-top: 1rem;
     }
-    .info .mobile{
+
+    .info .mobile {
         width: 150px;
     }
+    .img-vegi{
+        height:150px;
+    }
 }
+
 @media screen and (max-width:532px) {
     .riceimg {
         flex-direction: column;
@@ -729,14 +691,17 @@ iframe {
     .product_head {
         text-align: center;
     }
-    .heading{
-        font-size:1.4rem;
-        
+
+    .heading {
+        font-size: 1.4rem;
+
     }
-    .itemcard{
+
+    .itemcard {
         height: 100px;
     }
-    .itemcard a{
+
+    .itemcard a {
         font-size: .8rem;
     }
 }

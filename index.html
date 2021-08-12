@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link type="text/css" rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 </head>
@@ -138,9 +138,9 @@
     <section id="latest">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-8 mt-2"><img src="./vegetables/vegi/vegetables.1624012222 (1).png" alt=""></div>
-                <div class="col-lg-4 mt-2">
-                    <iframe height="258" src="https://www.youtube.com/embed/ScMzIvxBSi4" title="YouTube video player"
+                <div class="col-lg-8 mt-2"><img src="./vegetables/vegi/vegetables.1624012222 (1).png" alt="" class="img-vegi"></div>
+                <div class="col-lg-4 mt-2 youtube" >
+                    <iframe  src="https://www.youtube.com/embed/ScMzIvxBSi4" title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
@@ -423,7 +423,10 @@
             slideBy: 4,
             responsive: {
                 0: {
-                    items: 3
+                    items: 2
+                },
+                401: {
+                    items:3
                 },
                 600: {
                     items: 4
