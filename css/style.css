@@ -564,7 +564,12 @@ iframe {
     width: 100%;
     object-fit: cover;
 }
-
+@media screen and (min-width:1670){
+    .list1 a{
+        width: 180px;
+        font-size: .8rem;
+    }
+}
 @media screen and (max-width:1227px) {
     .list1 a {
         width: 110px;
