@@ -808,4 +808,14 @@ iframe {
     .itemcard a {
         font-size: .8rem;
     }
+    .y-video{
+        flex-direction: column;
+        padding-right: 20px;
+    }
+    .y-video h3{
+        font-size:.8rem;
+    }
+    .y-video a img{
+        width:25px;
+    }
 }
