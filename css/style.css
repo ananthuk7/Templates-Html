@@ -7,7 +7,9 @@ h6 {
     font-weight: bold;
 }
 
-
+.borderbottom{
+    border-bottom: 1px solid #d3d3d3;
+}
 .navbar {
     background-color: #C6D54F;
     ;
@@ -28,7 +30,10 @@ h6 {
     color: #000 !important;
     text-decoration: none;
 }
-
+.breadcrumb{
+    background-color: transparent;
+    border: 1px solid #d3d3d3;
+}
 
 #map iframe {
     height: 400px;
@@ -68,7 +73,12 @@ h6 {
     top: 1px;
 }
 
-
+.privacy-content{
+    text-align: justify;
+}
+.bold{
+    font-weight: bold;
+}
 .list1 {
     
     display: flex;
@@ -101,8 +111,15 @@ h6 {
 
 }
 
-
-
+#vegetables img{
+    border: 1px solid #d3d3d3;
+    padding: .5rem;
+    margin-top: 10px;
+}
+#vegetables h4{
+    border-bottom: 1px solid #d3d3d3;
+    padding-bottom:1rem;
+}
 .list1 a:hover {
     color: #fff;
 }
@@ -276,6 +293,7 @@ iframe {
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+    
 }
 
 .info h5 {
@@ -314,9 +332,53 @@ iframe {
     color: #fff;
     padding: 1rem;
 }
-
-
-
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+.wrapper .policyimage{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper .policyimage .y-video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.y-video h3{
+    font-size:1.3rem;
+    margin-left: 20px;
+}
+.y-video a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+.y-video a img{
+    width: 40px;
+}
+.policy a{
+    color:#000;
+    text-decoration: none;
+}
+.jagmul img{
+    margin-top: 10px;
+    height:35px;
+}
+.policy a{
+    font-size:.9rem;
+}
+#terms .wrapper{
+    border-top: 2px solid #d3d3d3;
+    margin-top:1rem;
+}
+/* #terms .container{
+    border-top: 1px solid #d3d3d3;
+} */
 /* categories */
 #vegetables img {
     width: 100%;
@@ -615,15 +677,26 @@ iframe {
 
 
 }
-
+@media screen and (max-width:900px) {
+    .info .mobile {
+        width: 150px;
+    }
+}
 @media screen and (max-width:768px) {
     .searching {
         width: 100%;
         top: 0px;
     }
+    .y-video h3{
+        font-size:1.2rem;
+    }
 
 }
-
+@media screen and (max-width:596px){
+    .info .mobile {
+        width: 135px;
+    }
+}
 @media screen and (max-width:572px) {
     .foot {
         border-top: 2px solid #000;
@@ -639,6 +712,11 @@ iframe {
     }
     .img-vegi{
         height:150px;
+    }
+    
+    .privacy-content p{
+        font-size:.9rem;
+        line-height: 1.3;
     }
 }
 
