@@ -46,7 +46,7 @@ h6 {
 .searching {
     width: 80%;
     position: relative;
-    top: -60px;
+    top: -54px;
     border-radius: 0 4px 4px 0;
 }
 
@@ -104,7 +104,9 @@ h6 {
     border-radius: 8px;
     font-weight: bold;
 }
-
+.padding{
+    padding-left: 5rem;
+}
 .list1 a {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -113,7 +115,7 @@ h6 {
     width: 136px;
     text-align: center;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: .9rem;
     border-radius: 8px;
 
 }
@@ -226,6 +228,7 @@ h6 {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+
 }
 
 .itemcardf {
@@ -646,7 +649,11 @@ iframe {
 
     }
 }
-
+@media screen and (max-width:1200px){
+    .padding{
+        padding-left: 3.5rem;
+    }
+}
 @media screen and (max-width:1068px) {
     .list1 a {
         width: 100px;
@@ -684,7 +691,9 @@ iframe {
     .youtube iframe {
         height: 200px;
     }
-
+    .padding{
+        padding-left: 15px  ;
+    }
 
 }
 @media screen and (max-width:900px) {
