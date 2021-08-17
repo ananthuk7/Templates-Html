@@ -6,7 +6,12 @@ h5,
 h6 {
     font-weight: bold;
 }
-
+.btn-secondary{
+    background-color: #3d271d !important;
+}
+.btn-secondary:hover{
+    color:#C6D54F !important;
+}
 .borderbottom{
     border-bottom: 1px solid #d3d3d3;
 }
