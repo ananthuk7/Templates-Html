@@ -6,6 +6,10 @@ h5,
 h6 {
     font-weight: bold;
 }
+#map {
+    height: 550px;
+    width: 100%;
+}
 .container {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -44,9 +48,7 @@ h6 {
     border: 1px solid #d3d3d3;
 }
 
-#map iframe {
-    height: 500px;
-}
+
 
 .over {
     overflow: hidden;
@@ -55,8 +57,9 @@ h6 {
 .searching {
     width: 80%;
     position: relative;
-    top: -54px;
+    top: -50px;
     border-radius: 0 4px 4px 0;
+    
 }
 
 .searching form {
