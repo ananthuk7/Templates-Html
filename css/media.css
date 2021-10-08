@@ -1,0 +1,42 @@
+@media screen and (max-width:991px) {
+
+    .carousel-caption > h1{
+        font-size:5rem;
+        line-height:1;
+    }
+    .button-invsto-front1{
+        padding: 10px 20px;
+    }
+    .button-invsto-front2{
+        padding: 10px 20px;
+    }
+    .button-fronts-group{
+        margin-top:50px;
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    .carousel-caption > h1{
+        font-size:4rem;
+        line-height:1;
+    }
+    .button-invsto-front1{
+        padding: 10px 20px;
+    }
+    .button-invsto-front2{
+        padding: 10px 20px;
+    }
+    .button-fronts-group{
+        margin-top:50px;
+    }
+    .carousel-caption {
+        width: 50%;
+        top: 5%;
+        left: 25%;
+      }
+    
+}
+@media screen and (max-width:576px){
+    
+}

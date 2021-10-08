@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="./dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="./dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="./css/slider.css">
+    <link rel="stylesheet" href="./css/media.css">
 
     <style>
         .navbar-toggler-icon {
@@ -43,7 +44,7 @@
     <!-- navbar-section -->
 
     <section id="header">
-        <div class="container">
+        <div class="container-xl">
             <nav class="navbar navbar-expand-lg navbar-light">
 
                 <a class="navbar-brand" href="#"><img src="./img/logo/logo.png" height="80" width="200" alt="logo"></a>
@@ -178,7 +179,7 @@
 
     <!-- investo-investment -->
     <section id="investment">
-        <div class="container p-5">
+        <div class="container-xl p-5">
             <div class="investo-wrap">
                 <div class="investo-join">
                     <h2 class="">Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
@@ -203,14 +204,14 @@
 
     <!-- what would like -->
     <section id="investo-card">
-        <div class="container p-5">
+        <div class="container-lg p-5">
             <div class="heading pt-5">
                 <h1 class="text-center">what would you like to do?</h1>
                 <span class="lines line1"></span>
                 <span class="lines line2"></span>
             </div>
             <div class="row p-5">
-                <div class="col-md-3">
+                <div class="col-md-3" col-sm-6 col-12>
                     <div class="card-invest d-flex">
                         <img src="./img/icons/1.jpg" alt="icon1">
                         <div class="invento-prop">
@@ -219,7 +220,7 @@
                         <div class="investo-border1 mx-auto"></div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6 col-12">
                     <div class="card-invest d-flex ">
                         <img src="./img/icons/2.jpg" alt="icon1">
                         <div class="invento-prop">
@@ -228,7 +229,7 @@
                         <div class="investo-border1 mx-auto"></div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6 col-12">
                     <div class="card-invest d-flex ">
                         <img src="./img/icons/3.jpg" alt="icon1">
                         <div class="invento-prop">
@@ -237,7 +238,7 @@
                         <div class="investo-border1 mx-auto"></div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6 col-12">
                     <div class="card-invest d-flex ">
                         <img src="./img/icons/4.jpg" alt="icon1">
                         <div class="invento-prop">
@@ -287,15 +288,15 @@
 
 
     <section id="topProposals">
-        <div class="container pb-5">
+        <div class="container">
             <div class="heading pt-5">
                 <h1 class="text-center">Top Proposals</h1>
                 <span class="lines line1"></span>
                 <span class="lines line2"></span>
             </div>
-            <div class="row">
-                <div class="col-lg-6 mx-auto mt-5">
-                    <div class="wrapper-proposals">
+            <div class="owl-carousel proposals owl-theme mt-4">
+                <div class="item">
+                    <div class=" wrapper-proposals mx-auto">
                         <div class="imgbox">
                             <img src="./img/invest/invest1.jpg" alt="">
                         </div>
@@ -314,20 +315,21 @@
 
                                     </div>
                                     <div class="investo-add">
-                                        <a href=""><i class="fas fa-user-plus fa-2x"></i></a>
+                                        <a href=""><i class="fas fa-user-plus"></i></a>
                                     </div>
 
                                 </div>
                                 <div class="investo-para">
 
-                                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <p class="text-justify investo-sent">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit.
                                         Ullam esse eaque...
 
                                     </p>
                                     <hr>
                                     <div class="investo-body">
-                                        <p>Your community</p>
-                                        <p><a href="" style="color:#eb0c52;"> Register</a> or
+                                        <p class="pt-1">Your community</p>
+                                        <p class="pb-2"><a href="" style="color:#eb0c52;"> Register</a> or
                                             <a href="" style="color:#eb0c52;"> Log in</a>
                                             to view this section</p>
                                         <div class="invest-target d-flex w-100 p-2">
@@ -344,7 +346,7 @@
                                                 <a href="">$291,488</a>
                                             </div>
                                         </div>
-                                        <ul class="pt-3 pb-3">
+                                        <ul class="pt-3">
                                             <li> Pre-money valuation &nbsp;&nbsp;&nbsp;&nbsp;$ 4,000,000</li>
                                             <li> Equity offered &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.97 %
@@ -366,11 +368,9 @@
 
                         </div>
                     </div>
-
                 </div>
-
-                <div class="col-lg-6 mx-auto mt-5">
-                    <div class="wrapper-proposals">
+                <div class="item">
+                    <div class=" wrapper-proposals mx-auto">
                         <div class="imgbox">
                             <img src="./img/invest/invest2.jpg" alt="">
                         </div>
@@ -389,20 +389,21 @@
 
                                     </div>
                                     <div class="investo-add">
-                                        <a href=""><i class="fas fa-user-plus fa-2x"></i></a>
+                                        <a href=""><i class="fas fa-user-plus"></i></a>
                                     </div>
 
                                 </div>
                                 <div class="investo-para">
 
-                                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <p class="text-justify investo-sent">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit.
                                         Ullam esse eaque...
 
                                     </p>
                                     <hr>
                                     <div class="investo-body">
-                                        <p>Your community</p>
-                                        <p><a href="" style="color:#eb0c52;"> Register</a> or
+                                        <p class="pt-1">Your community</p>
+                                        <p class="pb-2"><a href="" style="color:#eb0c52;"> Register</a> or
                                             <a href="" style="color:#eb0c52;"> Log in</a>
                                             to view this section</p>
                                         <div class="invest-target d-flex w-100 p-2">
@@ -419,7 +420,7 @@
                                                 <a href="">$291,488</a>
                                             </div>
                                         </div>
-                                        <ul class="pt-3 pb-3">
+                                        <ul class="pt-3">
                                             <li> Pre-money valuation &nbsp;&nbsp;&nbsp;&nbsp;$ 4,000,000</li>
                                             <li> Equity offered &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.97 %
@@ -441,11 +442,9 @@
 
                         </div>
                     </div>
-
                 </div>
-
-                <div class="col-lg-6 mx-auto" style="margin-top:5rem;">
-                    <div class="wrapper-proposals">
+                <div class="item">
+                    <div class=" wrapper-proposals mx-auto">
                         <div class="imgbox">
                             <img src="./img/invest/invest3.jpg" alt="">
                         </div>
@@ -464,20 +463,21 @@
 
                                     </div>
                                     <div class="investo-add">
-                                        <a href=""><i class="fas fa-user-plus fa-2x"></i></a>
+                                        <a href=""><i class="fas fa-user-plus"></i></a>
                                     </div>
 
                                 </div>
                                 <div class="investo-para">
 
-                                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <p class="text-justify investo-sent">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit.
                                         Ullam esse eaque...
 
                                     </p>
                                     <hr>
                                     <div class="investo-body">
-                                        <p>Your community</p>
-                                        <p><a href="" style="color:#eb0c52;"> Register</a> or
+                                        <p class="pt-1">Your community</p>
+                                        <p class="pb-2"><a href="" style="color:#eb0c52;"> Register</a> or
                                             <a href="" style="color:#eb0c52;"> Log in</a>
                                             to view this section</p>
                                         <div class="invest-target d-flex w-100 p-2">
@@ -494,7 +494,7 @@
                                                 <a href="">$291,488</a>
                                             </div>
                                         </div>
-                                        <ul class="pt-3 pb-3">
+                                        <ul class="pt-3">
                                             <li> Pre-money valuation &nbsp;&nbsp;&nbsp;&nbsp;$ 4,000,000</li>
                                             <li> Equity offered &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.97 %
@@ -516,11 +516,9 @@
 
                         </div>
                     </div>
-
                 </div>
-
-                <div class="col-lg-6 mx-auto"" style=" margin-top:5rem;">
-                    <div class="wrapper-proposals">
+                <div class="item">
+                    <div class=" wrapper-proposals mx-auto">
                         <div class="imgbox">
                             <img src="./img/invest/invest4.jpg" alt="">
                         </div>
@@ -539,20 +537,21 @@
 
                                     </div>
                                     <div class="investo-add">
-                                        <a href=""><i class="fas fa-user-plus fa-2x"></i></a>
+                                        <a href=""><i class="fas fa-user-plus"></i></a>
                                     </div>
 
                                 </div>
                                 <div class="investo-para">
 
-                                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <p class="text-justify investo-sent">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit.
                                         Ullam esse eaque...
 
                                     </p>
                                     <hr>
                                     <div class="investo-body">
-                                        <p>Your community</p>
-                                        <p><a href="" style="color:#eb0c52;"> Register</a> or
+                                        <p class="pt-1">Your community</p>
+                                        <p class="pb-2"><a href="" style="color:#eb0c52;"> Register</a> or
                                             <a href="" style="color:#eb0c52;"> Log in</a>
                                             to view this section</p>
                                         <div class="invest-target d-flex w-100 p-2">
@@ -569,7 +568,7 @@
                                                 <a href="">$291,488</a>
                                             </div>
                                         </div>
-                                        <ul class="pt-3 pb-3">
+                                        <ul class="pt-3">
                                             <li> Pre-money valuation &nbsp;&nbsp;&nbsp;&nbsp;$ 4,000,000</li>
                                             <li> Equity offered &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.97 %
@@ -591,10 +590,10 @@
 
                         </div>
                     </div>
-
                 </div>
 
             </div>
+
         </div>
     </section>
 
@@ -806,15 +805,12 @@
         </div>
     </section>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
-        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+
+
+
     <script src="./dist/owl.carousel.min.js"></script>
     <script>
         $(document).ready(function () {
@@ -843,10 +839,32 @@
             });
         });
     </script>
+    <script>
+        $(document).ready(function () {
+            $('.proposals').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: false,
+                dots: true,
+                autoplay: true,
+                autoplayTimeout: 4000,
+                autoplayHoverPause: true,
+                smartSpeed: 1000,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            });
+        });
+    </script>
     <script src="./js/owl.js"></script>
-
-    
-
 
 </body>
 

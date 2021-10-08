@@ -265,80 +265,127 @@ a:hover {
 /* proposals */
 
 .wrapper-proposals {
-  transition: 0.6s ease-in;
-  height: 500px;
-  width: 528px;
+  transition:  0.8s ease-in-out;
+  -moz-transition:  0.8s ease-in-out; /* Firefox 4 */
+  -webkit-transition:  0.8s ease-in-out; /* Safari and Chrome */
+  -o-transition:  0.8s ease-in-out; /* Opera */
+  -ms-transition:  0.8s ease-in-out; /* Explorer 10 */
+  height:479px;
+  overflow: hidden;
+  background-color: var(--white);
+  width: 350px;
 }
 .contentWrapper {
-  padding: 2.5rem;
+  padding: 1rem;
+  padding-top: 0.5rem;
+  height:479px;
+  background-color: var(--white);
+  
 }
-
+.wrapper-proposals:hover .imgbox {
+  height: 0;
+}
+.wrapper-proposals:hover .contentWrapper{
+  height:479px;
+}
+.wrapper-proposals:hover .contentWrapper .investo-button{
+  margin-top: -140px;
+}
+.wrapper-proposals:hover .investo-para {
+  height: 100%;
+}
 .imgbox {
+  height: 200px;
+  width: 350px;
   position: relative;
-  height: 192px;
-  width: 289px;
+  overflow: hidden;
+  transition:  0.8s ease-in-out;
+  -moz-transition:  0.8s ease-in-out; 
+  -webkit-transition:  0.8s ease-in-out; 
+  -o-transition:  0.8s ease-in-out; 
+  -ms-transition:  0.8s ease-in-out; 
+  background-color: var(--white);
 }
 .imgbox > img {
-  position: absolute;
-  object-fit: cover;
   width: 100%;
+  position: absolute;
   left: 0;
   top: 0;
-  height: 192px;
-}
-.wrapper-proposals:hover .contentBox {
-  transform: translate(0, 0);
-  position: absolute;
-  top: 0;
 }
 
-.wrapper-proposals:hover .contentBox:hover .investo-para {
-  height: 350px;
-}
 .contentBox {
   box-shadow: var(--box-shadow1);
-  transform: translate(150px, -100px);
-  width: 370px;
   background-color: var(--white);
-  position: absolute;
-  transition: 0.6s ease-in;
-
-  /* text-align: justify; */
+  text-align: justify;
+  width: 350px;
+  
+ 
 }
-
-/* .investo-head{
-  background:linear-gradient(to right,#35643f 30%,#81db87 70%);
-  text-align: center;
-  color:var(--white);
-} */
 
 .progress {
   height: 2rem;
   background-color: var(--percentage2-color);
   border-radius: 0em;
 }
+
 .invester-name {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .investo-para {
-  height: 78px;
   overflow-y: scroll;
   overflow-x: hidden;
-  transition: 0.8s ease-in;
-}
+  height: 130px;
+  transition:  0.8s ease-out;
+  -moz-transition:  0.8s ease-out; 
+  -webkit-transition:  0.8s ease-out; 
+  -o-transition:  0.8s ease-out; 
+  -ms-transition:  0.8s ease-out;
+  background-color: var(--white);
 
+}
+.investo-body{
+  background-color: var(--white);
+}
+.investo-add {
+  padding-right: 10px;
+}
+.investo-add > a > i {
+  font-size: 1.5rem;
+}
 .investo-para::-webkit-scrollbar {
   display: none;
 }
-
+.investo-para > hr {
+  margin-bottom: 0;
+}
+.investo-body > p {
+  margin-bottom: 0;
+}
+.investo-sent {
+  padding-top: 0.2rem;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
 .invester-name > .investo-pname {
   display: flex;
   flex-direction: column;
 }
 .investo-button {
-  display: flex;
+  /* display: flex; */
+  transition:  .5s ease;
+  -moz-transition:  .5s ease; 
+  -webkit-transition:  .5s ease; 
+  -o-transition:  .5s ease; 
+  -ms-transition:  .5s ease;
+  position: absolute;
+  background-color: var(--white);
+  z-index: 111;
+  height:70px;
+  padding-top: .5rem;
+  
 }
 .button-investo {
   padding: 7px 15px;
@@ -346,12 +393,20 @@ a:hover {
   color: var(--white);
   border-radius: 32px;
   margin-left: 10px;
+  margin-top: 10px;
+ 
 }
 .invest {
   background-color: var(--background1-color);
 }
+.invest:hover {
+  color: var(--black);
+}
 .proposal {
   background-color: var(--black);
+}
+.proposal:hover {
+  color: var(--background1-color);
 }
 .investo-add > a > i {
   color: #d3d3d3;
@@ -378,7 +433,6 @@ a:hover {
 .invest-target {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  /* justify-content: space-between; */
 }
 .investocroud {
   width: 30%;
@@ -397,6 +451,7 @@ a:hover {
 .investo-body > ul > li {
   list-style: none;
 }
+
 /* end proposals */
 
 #totalCount {
