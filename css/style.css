@@ -49,9 +49,9 @@ a:hover {
   font-weight: 600;
   text-shadow: 5px 5px 10px black;
 }
-.overlay {
+/* .overlay {
   background-color: rgba(0, 0, 0, 0.3);
-}
+} */
 
 .button-invsto-front1 {
   padding: 15px 30px;
@@ -80,10 +80,13 @@ a:hover {
   color: var(--black);
 }
 .button-invsto-front2:hover {
-  color: var(--white);
+  color: var(--background1-color);
 }
 
 .carousel-item {
+  height: 610px;
+}
+.carousel-item > img {
   height: 610px;
 }
 #infor-mation {
@@ -105,7 +108,12 @@ a:hover {
 #investment {
   height: 100%;
 }
-
+.left {
+  width: 150px;
+}
+.pad-cont {
+  padding: 3rem;
+}
 .investo-wrap {
   position: relative;
   width: 100%;
@@ -136,6 +144,10 @@ a:hover {
 .investo-join > h2 {
   font-weight: 500;
 }
+.investo-join > p {
+  text-align: justify;
+}
+
 .joinNow {
   font-size: 1.5rem;
   font-weight: 600;
@@ -183,10 +195,14 @@ a:hover {
 }
 
 #investo-card {
-  height: 70vh;
+  min-height: 70vh;
 }
 
 /* invest card */
+.padding-top-head {
+  padding-top: 5rem;
+  /* padding-bottom:3rem; */
+}
 
 .card-invest {
   flex-direction: column;
@@ -234,18 +250,24 @@ a:hover {
   width: 100%;
   position: relative;
 }
-.invento-video {
-  height: 555px;
-  width: 755px;
-  position: absolute;
-  top: -60px;
-  left: -15px;
-}
+
 .whywork {
-  height: 500px;
+  padding: 1rem;
   background: linear-gradient(to right, #000 50%, rgb(35, 39, 53) 50%);
 }
+.investo-row {
+  width: 100%;
+  display: flex;
+}
+.investo-col {
+  width: 50%;
+}
+.investo-content-why {
+  width: 60%;
 
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
 .scheduleBut {
   background-color: var(--background1-color);
   color: var(--white);
@@ -263,32 +285,32 @@ a:hover {
 }
 
 /* proposals */
-
+.wrapper-width {
+  width: 350px;
+}
 .wrapper-proposals {
-  transition:  0.8s ease-in-out;
-  -moz-transition:  0.8s ease-in-out; /* Firefox 4 */
-  -webkit-transition:  0.8s ease-in-out; /* Safari and Chrome */
-  -o-transition:  0.8s ease-in-out; /* Opera */
-  -ms-transition:  0.8s ease-in-out; /* Explorer 10 */
-  height:479px;
+  transition: 0.8s ease-in-out;
+  -moz-transition: 0.8s ease-in-out; /* Firefox 4 */
+  -webkit-transition: 0.8s ease-in-out; /* Safari and Chrome */
+  -o-transition: 0.8s ease-in-out; /* Opera */
+  -ms-transition: 0.8s ease-in-out; /* Explorer 10 */
+  height: 479px;
   overflow: hidden;
   background-color: var(--white);
-  width: 350px;
 }
 .contentWrapper {
   padding: 1rem;
   padding-top: 0.5rem;
-  height:479px;
+  height: 479px;
   background-color: var(--white);
-  
 }
 .wrapper-proposals:hover .imgbox {
   height: 0;
 }
-.wrapper-proposals:hover .contentWrapper{
-  height:479px;
+.wrapper-proposals:hover .contentWrapper {
+  height: 479px;
 }
-.wrapper-proposals:hover .contentWrapper .investo-button{
+.wrapper-proposals:hover .contentWrapper .investo-button {
   margin-top: -140px;
 }
 .wrapper-proposals:hover .investo-para {
@@ -296,14 +318,14 @@ a:hover {
 }
 .imgbox {
   height: 200px;
-  width: 350px;
+
   position: relative;
   overflow: hidden;
-  transition:  0.8s ease-in-out;
-  -moz-transition:  0.8s ease-in-out; 
-  -webkit-transition:  0.8s ease-in-out; 
-  -o-transition:  0.8s ease-in-out; 
-  -ms-transition:  0.8s ease-in-out; 
+  transition: 0.8s ease-in-out;
+  -moz-transition: 0.8s ease-in-out;
+  -webkit-transition: 0.8s ease-in-out;
+  -o-transition: 0.8s ease-in-out;
+  -ms-transition: 0.8s ease-in-out;
   background-color: var(--white);
 }
 .imgbox > img {
@@ -317,9 +339,6 @@ a:hover {
   box-shadow: var(--box-shadow1);
   background-color: var(--white);
   text-align: justify;
-  width: 350px;
-  
- 
 }
 
 .progress {
@@ -338,15 +357,14 @@ a:hover {
   overflow-y: scroll;
   overflow-x: hidden;
   height: 130px;
-  transition:  0.8s ease-out;
-  -moz-transition:  0.8s ease-out; 
-  -webkit-transition:  0.8s ease-out; 
-  -o-transition:  0.8s ease-out; 
-  -ms-transition:  0.8s ease-out;
+  transition: 0.8s ease-out;
+  -moz-transition: 0.8s ease-out;
+  -webkit-transition: 0.8s ease-out;
+  -o-transition: 0.8s ease-out;
+  -ms-transition: 0.8s ease-out;
   background-color: var(--white);
-
 }
-.investo-body{
+.investo-body {
   background-color: var(--white);
 }
 .investo-add {
@@ -375,17 +393,16 @@ a:hover {
 }
 .investo-button {
   /* display: flex; */
-  transition:  .5s ease;
-  -moz-transition:  .5s ease; 
-  -webkit-transition:  .5s ease; 
-  -o-transition:  .5s ease; 
-  -ms-transition:  .5s ease;
+  transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
   position: absolute;
   background-color: var(--white);
   z-index: 111;
-  height:70px;
-  padding-top: .5rem;
-  
+  height: 70px;
+  padding-top: 0.5rem;
 }
 .button-investo {
   padding: 7px 15px;
@@ -394,7 +411,6 @@ a:hover {
   border-radius: 32px;
   margin-left: 10px;
   margin-top: 10px;
- 
 }
 .invest {
   background-color: var(--background1-color);
@@ -481,7 +497,7 @@ a:hover {
 
 .blogWrap {
   padding: 1rem;
-  width: 500px;
+  /* width: 500px; */
 }
 .blog-content {
   padding: 0.5rem;
@@ -513,7 +529,6 @@ a:hover {
 }
 .imgbox-left img {
   margin-top: -41px;
-
   height: 300px;
 }
 .imgbox-left {
@@ -588,4 +603,8 @@ a:hover {
 }
 .footer-icons > li:nth-child(1) {
   margin-left: 0;
+}
+.footer-img {
+  height: 100px;
+  width: 250px;
 }
