@@ -120,10 +120,10 @@
     height: 500px;
   }
   #totalCount {
-    min-height: 30vh;
+   height:330px;
   }
   .countBox {
-    min-height: 30vh;
+    height:150px;
   }
   
   .carousel-item {
@@ -175,6 +175,7 @@
   .wrapper-width{
     width: 400px;
   }
+}
 @media screen and (max-width: 668px) {
   .carousel-caption {
     top: 8%;
@@ -207,10 +208,28 @@
   }
 }
 @media screen and (max-width: 576px) {
+  #sliderss>.sliders{
+    display: none;
+  }
+  
   #footer {
     
     padding:  2rem 0;
     
+  }
+ 
+  #totalCount {
+    padding: 2rem;
+   height:550px;
+  }
+  .countBox{
+    height:120px;
+  }
+  .carousel-control-prev {
+    top: 5%;
+  }
+  .carousel-control-next {
+    top: 5%;
   }
 
 }
@@ -258,12 +277,7 @@
     width: 100%;
     left: 0;
   }
-  .carousel-control-prev {
-    top: 0;
-  }
-  .carousel-control-next {
-    top: 0;
-  }
+  
 
   .investo-join {
       padding: 1.5rem;
