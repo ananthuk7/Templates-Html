@@ -22,8 +22,8 @@
   position: relative;
   padding: 2rem;
 }
-.signin{
-    color:var(--background1-color)
+.signin {
+  color: var(--background1-color);
 }
 .form-login {
   background-color: var(--shade);
@@ -89,12 +89,18 @@ input[type="password"]:focus {
 .or > .line-or {
   display: inline-block;
   height: 2px;
-  width:100px;
-  margin-top:18px;
+  width: 100px;
+  margin-top: 18px;
   background-color: rgba(0, 0, 0, 0.1);
 }
-.or >.text-or{
-    font-size: 1.3rem;
-    font-weight: 600;
+.or > .text-or {
+  font-size: 1.3rem;
+  font-weight: 600;
 }
-
+.already-login > p > a {
+  color: var(--background1-color);
+  text-shadow: 10px 10px 20px #000;
+}
+.already-login > p > a:hover {
+  color: #000;
+}
