@@ -53,6 +53,11 @@ a:hover {
 .dropdown-item:hover{
   color:var(--background1-color);
 }
+.dropdown-item:active {
+  color: #000;
+  text-decoration: none;
+  background-color: #fff;
+}
 .login-btn {
   padding: 7px 15px;
   text-transform: uppercase;
@@ -637,4 +642,9 @@ a:hover {
 .footer-img {
   height: 100px;
   width: 250px;
+}
+
+.what-we-offer{
+  height: 200px;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)),url("../img/banner/banner1.jpg")
 }
