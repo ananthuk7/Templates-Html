@@ -29,6 +29,9 @@ a:hover {
   font-weight: bold;
   font-size: 14px;
 }
+.nav-link:hover{
+  color: var(--background1-color) !important;
+}
 .login-btn {
   padding: 7px 15px;
   text-transform: uppercase;
@@ -39,6 +42,9 @@ a:hover {
   font-weight: 600;
   font-size: 14px;
 }
+.login-btn:hover{
+  color:var(--black);
+}
 .carousel-caption {
   width: 50%;
   top: 15%;
@@ -47,7 +53,7 @@ a:hover {
 .carousel-caption > h1 {
   font-size: 6rem;
   font-weight: 600;
-  text-shadow: 5px 5px 10px black;
+  text-shadow: 5px 5px 10px #000;
 }
 /* .overlay {
   background-color: rgba(0, 0, 0, 0.3);

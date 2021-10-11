@@ -1,9 +1,7 @@
-
 @media screen and (max-width: 1200px) {
-  .wrapper-width{
+  .wrapper-width {
     width: 450px;
   }
-
 }
 @media screen and (max-width: 1019px) {
   .investo-join {
@@ -19,38 +17,37 @@
     margin-bottom: 5px;
     font-size: 1rem;
   }
-  .wrapper-width{
+  .wrapper-width {
     width: 400px;
   }
-  
 }
 
 @media screen and (max-width: 991px) {
-  .wrapper-width{
-    width:370px;
+  .wrapper-width {
+    width: 370px;
   }
-  
-  .investo-content-why{
+
+  .investo-content-why {
     width: 90%;
   }
-  .investo-row{
+  .investo-row {
     flex-direction: column;
   }
   .whywork {
-    padding-left: .5rem;
+    padding-left: 0.5rem;
     background: linear-gradient(to bottom, #000 50%, rgb(35, 39, 53) 60%);
   }
-  .p-10{
+  .p-10 {
     padding: 4rem;
   }
-  .investo-col{
+  .investo-col {
     width: 100%;
   }
   .carousel-caption > h1 {
     font-size: 5rem;
     line-height: 1;
   }
- 
+
   .button-invsto-front1 {
     padding: 10px 20px;
   }
@@ -70,8 +67,8 @@
     height: 300px;
     transform: translate(0, 0);
   }
-  .padding-top-head{
-      padding-top:.3rem;
+  .padding-top-head {
+    padding-top: 0.3rem;
   }
   .investo-wrap > .investo-border {
     top: -5px;
@@ -81,30 +78,27 @@
     font-size: 1.5rem;
   }
   .Blogimg img {
-    
     height: 250px;
   }
 }
 @media screen and (max-width: 786px) {
-  .wrapper-width{
+  .wrapper-width {
     width: 350px;
   }
-
 }
 @media screen and (max-width: 768px) {
   .margin-left {
     margin-left: 60px;
   }
   .footer-container {
-   
     margin-left: 40px;
   }
-  .invsto-writer{
+  .invsto-writer {
     width: 100%;
     text-align: right;
     padding-right: 10px;
   }
-  .imgbox-left{
+  .imgbox-left {
     float: left;
     min-height: 30vh;
     padding: 2rem;
@@ -112,20 +106,19 @@
     padding-bottom: 1rem;
   }
   .imgbox-left img {
-    margin-top: 0;  
+    margin-top: 0;
     height: 200px;
-    
   }
   #comments {
     height: 500px;
   }
   #totalCount {
-   height:330px;
+    height: 330px;
   }
   .countBox {
-    height:150px;
+    height: 150px;
   }
-  
+
   .carousel-item {
     height: 500px;
   }
@@ -152,27 +145,26 @@
   }
 }
 @media screen and (max-width: 730px) {
-  .wrapper-width{
+  .wrapper-width {
     width: 330px;
   }
-
 }
-@media screen and (max-width: 724px){
-    /* .pad-left{
+@media screen and (max-width: 724px) {
+  /* .pad-left{
         padding-left:0;
         padding-right:0;
     } */
-    .pad-cont{
-        padding-left:0;
-        padding-right:0;
-    }
-    .investo-join{
-        border-radius: 0;
-        height: 360px;
-    }
+  .pad-cont {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .investo-join {
+    border-radius: 0;
+    height: 360px;
+  }
 }
 @media screen and (max-width: 690px) {
-  .wrapper-width{
+  .wrapper-width {
     width: 400px;
   }
 }
@@ -208,22 +200,20 @@
   }
 }
 @media screen and (max-width: 576px) {
-  #sliderss>.sliders{
+  #sliderss > .sliders {
     display: none;
   }
-  
+
   #footer {
-    
-    padding:  2rem 0;
-    
+    padding: 2rem 0;
   }
- 
+
   #totalCount {
     padding: 2rem;
-   height:550px;
+    height: 550px;
   }
-  .countBox{
-    height:120px;
+  .countBox {
+    height: 120px;
   }
   .carousel-control-prev {
     top: 5%;
@@ -231,24 +221,32 @@
   .carousel-control-next {
     top: 5%;
   }
-
 }
 @media screen and (max-width: 556px) {
   .footer-img {
     height: 90px;
     width: 220px;
   }
-  
-  .footer-container{
+
+  .footer-container {
     margin-left: 52px;
   }
- 
 }
-@media screen and (max-width: 450px) {
-  .investo-content-why{
+@media screen and (max-width: 556px) {
+  /* login */
+  #login {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .form-login {
     width: 100%;
   }
-  .p-10{
+}
+@media screen and (max-width: 450px) {
+  .investo-content-why {
+    width: 100%;
+  }
+  .p-10 {
     padding: 2rem;
   }
   .carousel-item {
@@ -277,16 +275,15 @@
     width: 100%;
     left: 0;
   }
-  
 
   .investo-join {
-      padding: 1.5rem;
-      height: 480px;
+    padding: 1.5rem;
+    height: 480px;
   }
-  .joinNow{
-      font-size:1.1rem;
+  .joinNow {
+    font-size: 1.1rem;
   }
-  .left{
+  .left {
     width: 98px;
   }
   .investo-join > h2 {
@@ -294,34 +291,41 @@
   }
 }
 
+@media screen and (max-width: 343px) {
+  .invento-forgot {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .checkbox > label {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+}
 
-
-
-
-@media screen and (max-width: 1200px){
-  .container-investo{
+@media screen and (max-width: 1200px) {
+  .container-investo {
     max-width: 1140px;
-    padding:.5rem;
+    padding: 0.5rem;
   }
 }
 
-@media screen and (max-width: 991px){
-  .container-investo{
+@media screen and (max-width: 991px) {
+  .container-investo {
     max-width: 960px;
-    padding:.5rem;
+    padding: 0.5rem;
   }
 }
 
-@media screen and (max-width: 768px){
-  .container-investo{
+@media screen and (max-width: 768px) {
+  .container-investo {
     max-width: 720px;
-    padding:.5rem;
+    padding: 0.5rem;
   }
 }
 
-@media screen and (max-width: 576px){
-  .container-investo{
+@media screen and (max-width: 576px) {
+  .container-investo {
     max-width: 540px;
-    padding:.5rem;
+    padding: 0.5rem;
   }
 }

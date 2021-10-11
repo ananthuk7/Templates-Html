@@ -1,0 +1,100 @@
+:root {
+  --black: #000;
+  --white: #fff;
+  --background1-color: #c78947;
+  --background2-color: #fff;
+  --percentage1-color: #35643f;
+  --percentage2-color: #81db87;
+  --percentage3-color: #eb0c52;
+  --box-shadow1: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  --shade: rgba(255, 255, 255, 0.3);
+  --linkedin: #0e76a8;
+  --facebook: #3b5998;
+}
+
+#login {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("../img/banner/banner-4.webp");
+  height: 558px;
+  position: relative;
+  padding: 2rem;
+}
+.signin{
+    color:var(--background1-color)
+}
+.form-login {
+  background-color: var(--shade);
+  padding: 1rem;
+  box-shadow: var(--box-shadow1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  top: 50%;
+  width: 450px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+  box-shadow: none;
+  border-color: var(--background1-color);
+}
+.form-container {
+  position: relative;
+}
+.login-icons {
+  font-size: 1.3rem;
+  position: absolute;
+  right: 1px;
+  padding-right: 10px;
+  padding: left 10px;
+  color: var(--background1-color);
+  background-color: var(--white);
+}
+.invento-forgot {
+  color: var(--black);
+  /* float: right; */
+  position: absolute;
+  right: 30px;
+  margin: 10px;
+}
+.invento-forgot:hover {
+  color: var(--background1-color);
+  text-shadow: 10px 10px 20px #000;
+}
+.button-login {
+  padding: 5px 15px;
+  background-color: var(--background1-color);
+  color: var(--white);
+  border: 1px solid #333;
+  text-shadow: 10px 10px 20px #d3d3d39c;
+}
+.other-logins > a {
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+  padding: 0.5rem 0;
+  color: var(--white);
+}
+.ln {
+  background-color: var(--linkedin);
+}
+.fb {
+  background-color: var(--facebook);
+}
+.or > .line-or {
+  display: inline-block;
+  height: 2px;
+  width:100px;
+  margin-top:18px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.or >.text-or{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
