@@ -47,7 +47,7 @@
         <div class="container-xl">
             <nav class="navbar navbar-expand-lg navbar-light">
 
-                <a class="navbar-brand" href="#"><img src="./img/logo/logo.png" height="80" width="200" alt="logo"></a>
+                <a class="navbar-brand" href="./index.html"><img src="./img/logo/logo.png" height="80" width="200" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -64,13 +64,35 @@
                             <a class="nav-link text-white" href="#">Dashboard</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link text-white">Invest</a>
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Invest
+                              </a>
+                              <div class="dropdown-menu dropdown-menu1" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">The proposals</a>
+                                <a class="dropdown-item" href="#">The Entrepreneurs</a>
+                                <a class="dropdown-item" href="#">What we offer Investors</a>
+                                <a class="dropdown-item" href="#">FAQs</a>
+                              </div>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link text-white">Raise</a>
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Raise
+                              </a>
+                              <div class="dropdown-menu dropdown-menu2" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Create Proposal</a>
+                                <a class="dropdown-item" href="#">What we offer entrepreneurs</a>
+                                <a class="dropdown-item" href="#">FAQs</a>
+                              </div>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link text-white">Howitworks</a>
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                How it works
+                              </a>
+                              <div class="dropdown-menu dropdown-menu3" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Process</a>
+                                <a class="dropdown-item" href="#">Case studies</a>
+                                <a class="dropdown-item" href="#">FAQs</a>
+                              </div>
                         </li>
                         <li class="nav-item">
                             <a href="" class="nav-link text-white">Blog</a>
@@ -601,7 +623,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="countBox text-white text-center d-flex align-items-center justify-content-center">
                         <div class="countCont">
-                            <span class="values">160</span>
+                            <p class="values"><span  id="number1">1200</span></p>
                             <p class="ccontent">AVERAGE INVEST <br>
                                 SITES OF INVESTO</p>
                         </div>
@@ -611,7 +633,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="countBox text-white text-center d-flex align-items-center justify-content-center">
                         <div class="countCont">
-                            <span class="values">72</span>
+                            <p class="values"><span  id="number2">1200</span></p>
                             <p class="ccontent">AVERAGE INVEST <br>
                                 SITES OF INVESTO</p>
                         </div>
@@ -621,7 +643,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="countBox text-white text-center d-flex align-items-center justify-content-center">
                         <div class="countCont">
-                            <span class="values">25</span>
+                            <p class="values"><span  id="number3">1200</span></p>
                             <p class="ccontent">AVERAGE INVEST <br>
                                 SITES OF INVESTO</p>
                         </div>
@@ -631,7 +653,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="countBox text-white text-center d-flex align-items-center justify-content-center">
                         <div class="countCont">
-                            <span class="values">1200</span>
+                            <p class="values"><span  id="number4">1200</span></p>
                             <p class="ccontent">AVERAGE INVEST <br>
                                 SITES OF INVESTO</p>
                         </div>
@@ -802,7 +824,7 @@
             </div>
         </div>
     </section>
-
+    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
@@ -869,6 +891,7 @@
         });
     </script>
     <script src="./js/owl.js"></script>
+    <script src="./js/counter.js"></script>
 
 </body>
 

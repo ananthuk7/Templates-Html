@@ -32,6 +32,27 @@ a:hover {
 .nav-link:hover{
   color: var(--background1-color) !important;
 }
+.dropdown-menu1 {
+  top: 98%;
+  left: 40%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.dropdown-menu2 {
+  top: 98%;
+  left: 47%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.dropdown-menu3 {
+  top: 98%;
+  left: 54%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.dropdown-item:hover{
+  color:var(--background1-color);
+}
 .login-btn {
   padding: 7px 15px;
   text-transform: uppercase;
@@ -494,6 +515,9 @@ a:hover {
   color: var(--background1-color);
   font-size: 2rem;
   font-weight: 700;
+}
+.values ::after{
+  content: "+"
 }
 .ccontent {
   font-weight: 700;
