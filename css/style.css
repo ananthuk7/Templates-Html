@@ -32,23 +32,26 @@ a:hover {
 .nav-link:hover{
   color: var(--background1-color) !important;
 }
-.dropdown-menu1 {
-  top: 98%;
-  left: 40%;
+.dropdown-menu {
+  
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+.dropdown-menu1 {
+  top: 98%;
+  left: 38.5%;
 }
 .dropdown-menu2 {
   top: 98%;
-  left: 47%;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+  left: 46%;
 }
 .dropdown-menu3 {
   top: 98%;
-  left: 54%;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+  left: 52.5%;
+}
+.dropdown-menu4 {
+  top: 98%;
+  left: 76.5%;
 }
 .dropdown-item:hover{
   color:var(--background1-color);
@@ -621,6 +624,10 @@ a:hover {
 .footer-container > ul > li > a:hover {
   color: var(--background1-color);
 }
+.footer-container > ul > li > .ft-1:hover::before{
+  content: "//";
+  padding-right: .5rem;
+}
 .margin-left {
   margin-left: -12px;
 }
@@ -633,6 +640,7 @@ a:hover {
 .footer-icons > li {
   margin-left: 10px;
 }
+
 .footer-icons > li > a > i {
   font-size: 20px;
 }
@@ -644,7 +652,47 @@ a:hover {
   width: 250px;
 }
 
+
+/* offer */
+
 .what-we-offer{
-  height: 200px;
+  height: 150px;
   background: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)),url("../img/banner/banner1.jpg")
+}
+.what-we-offer>h1{
+  transition: 1s ease-in;
+  font-weight: 500;
+}
+.what-we-offer>h1:hover{
+  /* font-weight: 500; */
+  font-style: italic;
+  
+}
+.what-we-offer>h1:hover::before{
+  content:"//";
+  /* font-weight: 500; */
+}
+.what-we-offer>h1:hover::after{
+  content:"\f0a1";
+  font-family: "Font Awesome 6 Free"; 
+  font-weight:900;
+  padding-left: 10px;
+ 
+  
+}
+
+
+/* proposals */
+.what-we-offer>.proposals:hover::before{
+  content:"//";
+  /* font-weight: 500; */
+}
+.what-we-offer>.proposals:hover::after{
+  content:"\f64a";
+  font-family: "Font Awesome 6 Free"; 
+  font-weight:900;
+  padding-left: 10px;
+  font-style: normal;
+ 
+  
 }

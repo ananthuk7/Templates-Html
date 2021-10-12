@@ -1,7 +1,13 @@
 @media screen and (max-width: 1200px) {
   .wrapper-width {
     width: 450px;
+
   }
+  #proposals > .wrapper-width {
+    width: 350px;
+  } 
+  
+
 }
 @media screen and (max-width: 1019px) {
   .investo-join {
@@ -20,6 +26,9 @@
   .wrapper-width {
     width: 400px;
   }
+  #proposals > .container-xl>.row>.col-lg-4>.wrapper-width {
+    width: 350px;
+  } 
 }
 
 @media screen and (max-width: 991px) {
