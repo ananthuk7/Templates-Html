@@ -29,11 +29,10 @@ a:hover {
   font-weight: bold;
   font-size: 14px;
 }
-.nav-link:hover{
+.nav-link:hover {
   color: var(--background1-color) !important;
 }
 .dropdown-menu {
-  
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
@@ -53,8 +52,8 @@ a:hover {
   top: 98%;
   left: 76.5%;
 }
-.dropdown-item:hover{
-  color:var(--background1-color);
+.dropdown-item:hover {
+  color: var(--background1-color);
 }
 .dropdown-item:active {
   color: #000;
@@ -71,8 +70,8 @@ a:hover {
   font-weight: 600;
   font-size: 14px;
 }
-.login-btn:hover{
-  color:var(--black);
+.login-btn:hover {
+  color: var(--black);
 }
 .carousel-caption {
   width: 50%;
@@ -516,7 +515,7 @@ a:hover {
 }
 
 .countBox {
-  height:300px;
+  height: 300px;
 }
 
 .values {
@@ -524,8 +523,8 @@ a:hover {
   font-size: 2rem;
   font-weight: 700;
 }
-.values ::after{
-  content: "+"
+.values ::after {
+  content: "+";
 }
 .ccontent {
   font-weight: 700;
@@ -624,9 +623,9 @@ a:hover {
 .footer-container > ul > li > a:hover {
   color: var(--background1-color);
 }
-.footer-container > ul > li > .ft-1:hover::before{
+.footer-container > ul > li > .ft-1:hover::before {
   content: "//";
-  padding-right: .5rem;
+  padding-right: 0.5rem;
 }
 .margin-left {
   margin-left: -12px;
@@ -652,50 +651,62 @@ a:hover {
   width: 250px;
 }
 
-
 /* offer */
 
-.what-we-offer{
+.what-we-offer {
   height: 150px;
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)),url("../img/banner/banner1.jpg")
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/banner/banner1.jpg");
 }
-.what-we-offer>h1{
+.what-we-offer > h1 {
   transition: 1s ease-in;
   font-weight: 500;
 }
-.what-we-offer>h1:hover{
+.what-we-offer > h1:hover {
   /* font-weight: 500; */
   font-style: italic;
-  
 }
-.what-we-offer>h1:hover::before{
-  content:"//";
+.what-we-offer > h1:hover::before {
+  content: "//";
   /* font-weight: 500; */
 }
-.what-we-offer>h1:hover::after{
-  content:"\f0a1";
-  font-family: "Font Awesome 6 Free"; 
-  font-weight:900;
+.what-we-offer > h1:hover::after {
+  content: "\f0a1";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
   padding-left: 10px;
- 
-  
 }
-
 
 /* proposals */
-.what-we-offer>.proposals:hover::before{
-  content:"//";
+.what-we-offer > .proposals:hover::before {
+  content: "//";
   /* font-weight: 500; */
 }
-.what-we-offer>.proposals:hover::after{
-  content:"\f64a";
-  font-family: "Font Awesome 6 Free"; 
-  font-weight:900;
+.what-we-offer > .proposals:hover::after {
+  content: "\f64a";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
   padding-left: 10px;
   font-style: normal;
- 
-  
 }
-.wrapper-width1{
+.wrapper-width1 {
   width: 100%;
+}
+.navbar-nav > .nav-item > .active {
+  color: var(--background1-color) !important;
+}
+
+
+/* the entrepreneur */
+
+.what-we-offer > .enterpre:hover::before {
+  content: "//";
+  /* font-weight: 500; */
+}
+.what-we-offer > .enterpre:hover::after {
+  content: "\f508";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  padding-left: 10px;
+  font-style: normal;
 }
