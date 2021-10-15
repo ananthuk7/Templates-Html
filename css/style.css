@@ -24,6 +24,10 @@ a {
 a:hover {
   text-decoration: none;
 }
+.nav-item{
+  margin-left: 10px;
+}
+
 .nav-link {
   text-transform: uppercase;
   font-weight: bold;
@@ -589,9 +593,9 @@ a:hover {
   background-color: var(--black);
   padding: 2rem;
 }
-.footer-container1 > p {
-  margin-left: 55px;
-}
+  /* .footer-container1 > p {
+    margin-left: 55px;
+  } */
 .footer-container {
   margin-top: 40px;
   margin-left: 80px;
@@ -648,7 +652,7 @@ a:hover {
 }
 .footer-img {
   height: 100px;
-  width: 250px;
+  width: 150px;
 }
 
 /* offer */
