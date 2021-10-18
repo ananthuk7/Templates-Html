@@ -1,0 +1,76 @@
+#register {
+  /* background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("../img/banner/banner-4.webp"); */
+  height: 558px;
+  padding: 2rem;
+  display: grid;
+  place-items: center;
+}
+input {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+}
+.form1 {
+  width: clamp(320px, 30%, 430px);
+  margin: 0 auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.35rem;
+  padding: 1.5rem;
+}
+
+.form-step {
+  display: none;
+  
+}
+.form-step-active {
+  display: block;
+  transition: 1s ease-in-out;
+}
+
+.input-group {
+  margin: 1rem 0;
+}
+.progress-bars {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  counter-reset: step;
+}
+.progress-bars::before,
+.progress1 {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 4px;
+  width: 100%;
+  background-color: #ccc;
+  z-index: -1;
+}
+.progress1{
+  width: 0;
+  background-color: pink;
+}
+.progress-step {
+  height: 2.1875rem;
+  width: 2.1875rem;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.progress-step::before {
+  counter-increment: step;
+  content: counter(step);
+}
+.progress-step-active {
+  color: #fff;
+  background-color: pink;
+}
