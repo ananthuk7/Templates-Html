@@ -18,9 +18,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
-
-    <link rel="stylesheet" href="./css/register.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./css/profile.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="./css/media.css" rel="stylesheet" type="text/css">
+
 
     <style>
         .navbar-toggler-icon {
@@ -56,12 +56,12 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
+                        <li class="nav-item ">
                             <a class="nav-link text-white" href="#"><img src="./img/flag/united-kingdom.png" height="20"
                                     width="20" alt="flag" style="margin-top: -.25rem;"></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Dashboard</a>
+                            <a class="nav-link active" href="#">Dashboard</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
@@ -125,179 +125,123 @@
 
     </section>
 
-
-
-
-    <!-- end of navbar -->
-
-    <section id="register">
-
-        <form action="" class="form1" id="form1">
-            <div class="progress-bars">
-                <div id="progress1" class="progress1"></div>
-                <div class="progress-step progress-step-active" data-title="Account"> </div>
-                <div class="progress-step" data-title="Details"></div>
-                <div class="progress-step" data-title="Complete"></div>
-            </div>
-            <div class="form-step form-step-active">
-                <div class="input-group">
-                    <input type="text" required placeholder="Username">
-                </div>
-                <div class="input-group">
-                    <input type="email" required placeholder="email">
-                </div>
-                <div class="input-group">
-                    <input type="password" required placeholder="Password">
-                </div>
-                <div class="input-group">
-                    <input type="text" required placeholder="Confirm Password">
-                </div>
-                <p>User Type</p>
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="example">
-                    <label class="form-check-label" for="example">Check me out</label>
-                </div>
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampl">
-                    <label class="form-check-label" for="exampl">Check me out</label>
-                </div>
-                <p>IMPORTANT NOTE: Please make sure that you choose the right type, you can't change it after
-                    registration</p>
-                <div class="">
-                    <a href="" class="btn-next btn btn-primary w-50">next</a>
-                </div>
-            </div>
-
-
-            <div class="form-step">
-                <h4 class="mt-3 mb-3">Your account type is: <br>
-                    Investor & Entrepreneur</h4>
-
-                <div class="form-group row">
-                    <label for="inputPassword" class="col-sm-3 col-form-label">Nationality:</label>
-                    <div class="col-sm-9">
-                        <select class="form-control" id="exampleFormControlSelect1">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                        </select>
+    <section id="profile-main">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="profile-warp d-flex justify-content-between align-items-center pl-3 pr-5 pt-4">
+                        <div class="profile-img">
+                            <img src="./img/icons/user.png" alt="">
+                        </div>
+                        <div class="profile-content">
+                            <h1>Team Name</h1>
+                            <h3>Entrepreneur</h3>
+                            <p><i class="fas fa-map-marker-alt"></i> location</p>
+                            <div class="proposal-box">
+                                <p>Proposal: <a href="">UDRIVE</a></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <div class="col-md-6">
+                    <div class="regular-mem d-flex align-items-center justify-content-between p-4 pt-3">
+                        <div class="regu-mem-warp d-flex align-items-center justify-content-center">
+                            <img src="./img/icons/user.png" alt="" height="50" width="50">
+                            <p class="pl-2 pt-3">Regular <br> Member</p>
 
-                <div class="form-group row">
-                    <label for="inputPassword" class="col-sm-3 col-form-label">Country</label>
-                    <div class="col-sm-9">
-                        <select class="form-control" id="exampleFormControlSelect1">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                        </select>
+                        </div>
+                        <div class="d-flex" style="padding-top:1rem;">
+                            <div class="prof-follower d-flex align-items-center justify-content-center flex-column">
+                                <h4>follower</h4>
+                                <p>30</p>
+                            </div>
+                            <div class="prof-follower ml-3 d-flex align-items-center justify-content-center flex-column ">
+                                <h4>follower</h4>
+                                <p>30</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="actions ml-3">
+                        <a href="" class="btn btn-primary ml-2">Follow</a>
+                        <a href="" class="btn btn-primary ml-2">Add Contact</a>
                     </div>
                 </div>
-                <div class="input-group">
-                    <input type="text" required placeholder="Firstname">
-                </div>
-                <div class="input-group">
-                    <input type="text" required placeholder="Surname">
-                </div>
-                <div class="input-group">
-                    <input type="text" required placeholder="Phone Number">
-                </div>
-                <p>IMPORTANT NOTE: Please make sure to put your valid mobile number here. It's required to reach you
-                    during the issuance of share certificates.</p>
-                DOB
-                <div class="form-group row">
-                    <div class="col-sm-4">
-                        <select class="form-control" id="exampleFormControlSelect1">
-                            <option>Day</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                        </select>
-                    </div>
-                    <div class="col-sm-4">
-                        <select class="form-control" id="exampleFormControlSelect1">
-                            <option>Month</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                        </select>
-                    </div>
-                    <div class="col-sm-4">
-                        <select class="form-control" id="exampleFormControlSelect1">
-                            <option>Year</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="input-group">
-                    <input type="text" required placeholder="Promotion Code">
-                </div>
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">By registering you accept the Investor's terms
-                        of business & our privacy policy.</label>
-                </div>
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck2">
-                    <label class="form-check-label" for="exampleCheck2">I confirm that I am not a U.S. Person (as
-                        defined in Regulations of the U.S. Securities Act 1933). or a resident of the Dubai
-                        International Financial Center (DIFC).</label>
-                </div>
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck3">
-                    <label class="form-check-label" for="exampleCheck3">By registering you accept Eureeca Terms of Use -
-                        Website Terms And Conditions</label>
-                </div>
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck4">
-                    <label class="form-check-label" for="exampleCheck4">
-                        I have read the risks disclosure document and fully understand and accept the risks of investing
-                        in private companies.</label>
-                </div>
-                <div class=" d-flex">
-                    <a href="" class="btn-prev btn btn-primary w-25">prev</a>
-                    <a href="" class="btn btn-primary w-25 ml-4" type="submit">submit</a>
-                </div>
-            </div>
-            <!-- <div class="form-step ">
-                <div class="input-group">
-                    <input type="text">
-                </div>
-                <div class="input-group">
-                    <input type="text">
-                </div>
-                <div class="">
-                    <a href="" class="btn-prev">prev</a>
-                    
-                </div>
-            </div> -->
-        </form>
-        <div class="container-logins">
-            <div class=" d-flex justify-content-center justify-content-center or m-3">
-                <span class="line-or"></span>
-                <span class="ml-2 mr-2 text-or">or</span>
-                <span class="line-or"></span>
-            </div>
-            <div class="other-logins d-flex align-items-center justify-content-center flex-column mb-3">
-                <a href="" class="ln"><i class="fab fa-linkedin-in mr-1"></i>Linkedin</a>
-                <a href="" class="fb"><i class="fab fa-facebook-f mr-1"></i>Facebook</a>
-            </div>
-            <div class="already-login">
-                <p class="text-center">Already have an account?<a href="./login.html"> SignIn</a></p>
             </div>
         </div>
 
 
+    </section>
+    <!-- end of navbar -->
+    <section id="proposal-id">
+        <div class="container">
+            <h1 class="text-center mt-3">Proposal</h1>
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <div class="img-proposals">
+                        <img src="./img/invest/invest1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    
+                        <div class=" wrapper-proposal wrapper-width1 mx-auto">
+                            <div class="contentBox wrapper-width1">
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 30%"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        30% completed
+                                    </div>
+                                </div>
+                                <div class="contentWrapper">
+                                    <div class="invester-name">
+                                        <div class="investo-pname">
+                                            <a href="" class="in-name in-names">Roma</a>
+                                            <a href="" class="in-sub in-names"> BY ELLYSE PERRY</a>
+                                        </div>
+                                        <div class="investo-add">
+                                            <a href="" class="btn btn-outline-primary"></i>Follow</a>
+                                        </div>
+                                    </div>
+                                    <div class="investo-par">
+    
+                                        <p class="text-justify investo-sent">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing elit.
+                                            Ullam esse eaque...
+                                        </p>
+                                        <hr>
+                                        <div class="investo-body">
+                                            <p class="pt-1">Your community</p>
+                                            <p class="pb-2"><a href="./register.html" style="color:#eb0c52;"> Register</a> or
+                                                <a href="./login.html" style="color:#eb0c52;"> Log in</a>
+                                                to view this section</p>
+                                            <div class="invest-target d-flex w-100 p-2">
+                                                <div class="investocroud flex-column">
+                                                    <a href=""> Crowd</a>
+                                                    <a href="">35</a>
+                                                </div>
+                                                <div class="investocroud flex-column">
+                                                    <a href="">Base Target</a>
+                                                    <a href="">$250,000</a>
+                                                </div>
+                                                <div class="investocroud flex-column pl-3">
+                                                    <a href="">Raised</a>
+                                                    <a href="">$291,488</a>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="investo-button">
+                                        <a href="" class="invest button-investo">invest</a>
+                                        <a href="" class="proposal button-investo">view proposal</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="footer">
@@ -345,12 +289,9 @@
         </div>
     </section>
 
-    <script src="./js/register.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
-
-
 
 
 </body>

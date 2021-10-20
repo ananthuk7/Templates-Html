@@ -139,3 +139,49 @@
 .a-size{
     font-size:.83rem;
 }
+
+.blog-details-im > img{
+    width:100%;
+    object-fit: cover;
+}
+.h4{
+    font-weight: 500;
+
+}
+.blog-details-date{
+    border:1px solid rgba(0, 0, 0, 0.1);
+    height: 100%;
+    padding: .5rem;
+}
+.blog-details-head{
+    padding-right: .75rem;;
+}
+.blog-details-head > h1 {
+    font-size:2.3rem;
+    font-weight:600;
+    line-height: 1.2;
+    padding-right: .5rem;
+}
+.blog-details-head > h1:hover{
+    color:var(--text-color1)
+}
+.blog-details-date{
+    line-height:1;
+}
+
+.form-control{
+    height:50px;
+}
+.related-warp-img > img {
+    object-fit:cover;
+    width: 100%;
+}
+.related-warp > a  {
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.related-warp >a:hover  {
+    color: var(--text-color1);
+}
