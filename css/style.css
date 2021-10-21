@@ -718,3 +718,75 @@ a:hover {
   padding-left: 10px;
   font-style: normal;
 }
+
+
+/* floatingbutton */
+
+
+.action {
+  position: fixed;
+  bottom:50px;
+  left:50px;
+  width:50px;
+  height:50px;
+  background-color: var(--background1-color);
+  border-radius: 50%;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  z-index: 100000;
+  cursor: pointer;
+}
+.action > span {
+  position: relative;
+  height:100%;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#fff;
+  font-size: 2.5rem;
+  transition: 0.3s ease-in-out;
+  font-weight:200;
+  top: -5px;
+}
+.action.active > span {
+  transform: rotate(135deg);
+  margin-left: 3px;
+  margin-top: 8px;
+}
+.action > ul{
+  position:absolute;
+  bottom: 55px;
+  background: #fff;
+  min-width: 250px;
+  padding:20px;
+  border-radius: 20px;
+  opacity: 0;
+  visibility: hidden;
+  transition:0.3s;
+}
+.action.active > ul{
+  visibility: visible;
+  opacity: 1;
+  bottom: 65px;
+  transition: 0.3s;
+  
+}
+.action.active > ul > li {
+  list-style: none;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 0;
+  transition: 0.3s
+
+}
+.action.active > ul > li:hover{
+  font-weight: 600;
+
+}
+.action.active > ul > li:not(:last-child){
+  border-bottom:1px solid  rgba(0, 0, 0, 0.1);
+}
+.action.active > ul > li> i {
+  margin-right: 10px;;
+}
