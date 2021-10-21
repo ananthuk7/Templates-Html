@@ -543,9 +543,13 @@ a:hover {
 .blog-content {
   padding: 0.5rem;
 }
-.blog-content > h1 {
-  font-size: 700;
+.blog-content > .blog-heading {
+  font-weight: 700;
   font-size: 2rem;
+  color: #000;
+}
+.blog-content > .blog-heading:hover{
+  color:var(--background1-color);
 }
 .blog-content > a {
   font-size: 1rem;

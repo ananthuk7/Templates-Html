@@ -39,8 +39,14 @@ height:565px;
    text-decoration: none;
  }
 .discover-right > img {
-    width: 90%;
+    width: 100%;
     object-fit:cover;
+    display: block;
+    margin-right:auto;
+    margin-left:auto;
+}
+.discover-right > .img-responsive{
+    width: 81%;
 }
 .discover{
 width: 50%;
