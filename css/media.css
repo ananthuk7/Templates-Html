@@ -118,7 +118,7 @@
     margin-left: 60px;
   }
   .footer-container {
-    margin-left: 40px;
+    margin-left: 0;
   }
   .invsto-writer {
     width: 100%;
@@ -262,16 +262,20 @@
   .carousel-control-next {
     top: 5%;
   }
+  .footer-container,.footer-container1{
+    margin-left: 2rem;
+  }
+  .footer-img {
+    height: 150px;
+    width: 200px;
+  }
 }
 @media screen and (max-width: 556px) {
-  .footer-img {
-    height: 90px;
-    width: 220px;
-  }
+  
 
-  .footer-container {
-    margin-left: 52px;
-  }
+  /* .footer-container {
+    margin-left: ;
+  } */
   .blog-container-group {
     flex-direction: column;
     justify-content: center;
