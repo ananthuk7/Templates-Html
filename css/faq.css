@@ -7,6 +7,8 @@
   background-attachment: fixed;
 
   background-size: cover;
+  padding-top: 2rem;
+  
 }
 #sectionSearch > .container > .nav-tabs {
   border-bottom: 1px solid #dee2e6;
@@ -34,6 +36,7 @@
   width: 100%;
   background-color: #fff;
   padding: 2rem;
+  margin-top: 3rem;
 }
 #search-tabs-faq
   > .container
@@ -56,4 +59,7 @@
   > h2
   > button:active {
     text-decoration: none;
+}
+.nav-tabs {
+  border-bottom:none;
 }

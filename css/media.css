@@ -45,7 +45,7 @@
     width: 100%;
     height: 50vh;
   }
-  .business  {
+  .business {
     width: 100%;
     height: 50vh;
   }
@@ -175,6 +175,12 @@
   .wrapper-width {
     width: 330px;
   }
+  .what-we-offer > h1 {
+    font-size: 2rem;
+  }
+  .entre-h1 {
+    font-size: 1.4rem;
+  }
 }
 @media screen and (max-width: 724px) {
   /* .pad-left{
@@ -193,6 +199,11 @@
 @media screen and (max-width: 690px) {
   .wrapper-width {
     width: 400px;
+  }
+  .down {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media screen and (max-width: 668px) {
@@ -224,6 +235,9 @@
   }
   .carousel-control-next {
     top: -50%;
+  }
+  .search-faq > h1 {
+    font-size: 2rem;
   }
 }
 @media screen and (max-width: 576px) {
@@ -258,6 +272,20 @@
   .footer-container {
     margin-left: 52px;
   }
+  .blog-container-group {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .blog-tags {
+    width: 100%;
+  }
+  .comments {
+    width: 100%;
+  }
+  .comments a {
+    float: right;
+  }
 }
 @media screen and (max-width: 556px) {
   /* login */
@@ -268,12 +296,15 @@
   .form-login {
     width: 100%;
   }
+  .what-we-offer > .enterpre {
+    font-size: 1.5rem;
+  }
 }
 @media screen and (max-width: 450px) {
-  .business-head{
+  .business-head {
     font-size: 3rem;
   }
-  .business-para{
+  .business-para {
     font-size: 1.3rem;
   }
   .investo-content-why {
@@ -322,6 +353,12 @@
   .investo-join > h2 {
     font-size: 1.5rem;
   }
+  .blogs-tags-main {
+    font-size: 0.6rem;
+  }
+  .comments > a {
+    font-size: 0.6rem;
+  }
 }
 
 @media screen and (max-width: 343px) {
@@ -333,11 +370,14 @@
     font-size: 0.9rem;
     font-weight: 600;
   }
-  .business-head{
+  .business-head {
     font-size: 2rem;
   }
-  .business-para{
+  .business-para {
     font-size: 1rem;
+  }
+  .what-we-offer > h1 {
+    font-size: 1.4rem;
   }
 }
 
