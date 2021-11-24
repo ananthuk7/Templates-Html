@@ -1,0 +1,248 @@
+hr {
+  margin-bottom: 0;
+  margin-top: 0;
+  
+}
+
+.family {
+  font-family: "Inconsolata", monospace;
+  font-family: "Shippori Antique B1", sans-serif;
+  font-family: "Unna", serif;
+  color: #929292;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+/* head section */
+#header {
+  padding: 1rem 3rem;
+}
+
+.heading1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img-height {
+  height: 50px;
+}
+
+.h1sub1 {
+  display: flex;
+  align-items: center;
+}
+
+.h1sub2 {
+  font-family: "DM Serif Display", serif;
+}
+
+/* head section end */
+
+
+
+/* navsection */
+.padding-top{
+  padding-top:9rem;
+  border-right: 1px solid rgba(0,0,0,0.1);;
+}
+.border-bottom{
+  border-bottom:1px solid rgba(0,0,0,0.1);
+  font-size:1.4rem;
+  padding-top: 1rem;
+  padding-bottom:1rem;
+}
+.lastbtn {
+  /* padding-top: 10px;
+  padding-bottom: 30px;
+  margin-right: 60px; */
+  font-family: "DM Serif Display", serif;
+}
+.nav-pills .nav-link.active{
+  background-color:transparent !important;
+}
+
+.bton {
+  background-color: #ca913d !important;
+  border-radius: 300px;
+  font-family: "DM Serif Display", serif;
+  box-shadow: #55380f 50px !important;
+}
+.img1-height{
+  height: 200px;
+   width: 200px;
+   border-radius:50%;
+}
+
+.bottom{
+  position: absolute;
+  bottom: 0;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+.bottom:hover{
+  text-decoration: none;
+}
+
+
+.h2sub2 {
+  padding-top: 9rem;
+  font-family: "DM Serif Display", serif;
+}
+
+.bton1 {
+  /* margin-left: 200px; */
+  font-family: "DM Serif Display", serif;
+  padding-top: 1rem;
+  padding-bottom:1rem;
+}
+
+.bton2 {
+  background-color: #ca913d !important;
+  border-radius: 400px;
+  width: 250px;
+  font-family: "DM Serif Display", serif;
+}
+
+/* Create a container using css properties */
+
+
+
+/* Apply css properties to ui-widgets class */
+
+.ui-widgets {
+  position: relative;
+  display: inline-block;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 9rem;
+  margin: 1.5rem;
+  border: 1.2rem solid palegreen;
+  box-shadow: inset 0 0 7px grey;
+  border-left-color: #a1671f;
+  border-top-color: #55380f;
+  border-right-color: black;
+  border-bottom-color: white;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+}
+
+/* Apply css properties to the second
+    child of ui-widgets class */
+
+.ui-widgets:nth-child(2) {
+  border-top-color: chartreuse;
+  border-right-color: white;
+  border-left-color: palegreen;
+  border-bottom-color: white;
+}
+
+/* Apply css properties to ui-widgets
+   class and ui-values class */
+
+.ui-widgets .ui-values {
+  top: 40px;
+  position: absolute;
+  left: 10px;
+  right: 0;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+/*  Apply css properties to ui-widgets 
+class and ui-labels class */
+
+.ui-widgets .ui-labels {
+  left: 0;
+  bottom: -16px;
+  text-shadow: 0 0 4px grey;
+  color: black;
+  position: absolute;
+  width: 100%;
+  font-size: 16px;
+}
+.button-alin{
+  display: flex; 
+  justify-content: end;
+}
+
+.card-wrap{
+  padding: 1rem;
+}
+.ivestor-btt{
+  padding: 12px 50px;
+  width:90%;
+  text-align: center;
+  background:linear-gradient(#b4771b,#e4b672,#ac7420);
+  font-weight: 600;
+  color: #fff;
+  border-radius: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing:1px;
+  transition: .8s ease;
+}
+.ivestor-btt:hover{
+  color: #fff;  
+  text-decoration: none; 
+  background:linear-gradient(#e29a2d,#966215,#ad7014); 
+
+}
+.img-wrapper{
+  width: 40%;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.img-wrapper > img{
+  width:100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.download-btt{
+  color:#ca913d;
+  font-weight: bold;
+}
+.download-btt:hover{
+  color:#ca913d;
+  text-decoration: none;
+}
+@media screen and (max-width:765px){
+  .bottom{
+    bottom: -44px;
+  }
+  .h2sub2{
+    text-align: center;
+    padding-top:2rem;
+  }
+  .border-right{
+    margin-top: 5rem;
+  }
+  .button-alin{
+    
+    justify-content: center;
+  }
+  .padding-top{
+    padding-top: 1rem;
+  }
+  .family{
+    font-size: 1rem;
+  }
+  #header {
+    padding: 1rem .5rem;
+  }
+}
+
+@media screen and (max-width:383px){
+  .family{
+    font-size: .8rem;
+  }
+  .img-height{
+    height: 40px;
+  }
+  #header {
+    padding: 1rem .3rem;
+  }
+  .size{
+    font-size:1rem;
+  }
+}

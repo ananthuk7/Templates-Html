@@ -317,11 +317,15 @@ a:hover {
   word-spacing: 2px;
   letter-spacing: 1px;
   transition: 0.5s ease-in;
+  outline: none;
 }
 .scheduleBut:hover {
   color: var(--black);
 }
-
+.out{
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
 /* proposals */
 .wrapper-width {
   width: 350px;

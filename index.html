@@ -300,7 +300,8 @@
                             ipsam harum
                             ab consectetur minus, tempora neque, minima necessitatibus amet magni facere officiis,
                             asperiores blanditiis eveniet architecto dolorem. Fugit!</p>
-                        <a href="" class="scheduleBut"> schedule a call</a>
+                        <a href="" data-toggle="modal" data-target="#exampleModal" class="scheduleBut"> schedule a
+                            call</a>
                     </div>
                 </div>
                 <div class="investo-col">
@@ -782,8 +783,6 @@
                                     <a href="" class="invest button-investo">invest</a>
                                     <a href="./investo-details.html" class="proposal button-investo">view proposal</a>
                                 </div>
-
-
                             </div>
 
                         </div>
@@ -1468,14 +1467,70 @@
             </div>
         </div>
     </section>
+
+    <!-- Button trigger modal -->
+    <!-- <button type="button" class="btn btn-primary">
+        Launch demo modal
+    </button> -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center" id="exampleModalLabel"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <h3 class="text-center mt-2" style="font-weight:500;">Shedule a Call</h3>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="form-group row">
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">Date</label>
+                            <div class="col-sm-10">
+                                <input type="date" class="form-control" id="inputEmail3" required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputEmail" class="col-sm-2 col-form-label">Time</label>
+                            <div class="col-sm-10">
+                                <input type="time" class="form-control" id="inputEmail">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputEmai" class="col-sm-2 col-form-label">Phone</label>
+                            <div class="col-sm-10">
+                                <input type="number" class="form-control" id="inputEmai">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputEma" class="col-sm-2 col-form-label">Text</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputEma">
+                            </div>
+                        </div>
+                        <div class="modal-footer justify-content-center">
+                            <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                            <button type="submit" class="scheduleBut out">Shedule</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
     <div class="action" onclick="actionToggle();">
         <span>+</span>
         <ul>
-            <li><a href="https://api.whatsapp.com/send?phone=919895065829&text=Hi%20There!" class="whatsapp"><i class="fab fa-whatsapp"></i>Contact on Whatsapp</a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=919895065829&text=Hi%20There!" class="whatsapp"><i
+                        class="fab fa-whatsapp"></i>Contact on Whatsapp</a></li>
             <li><a href="./contactus.html" class="address"> <i class="far fa-address-card"></i>Contact Us</a></li>
             </li>
             <!-- <li><a href="" class="mobile"> <i class="fas fa-mobile-alt"></i>Contact on Phone</a></li> -->
-            <li><a href="mailto:info@torcinfotech.com?subject=Want to know more about this" class="envelope"> <i class="far fa-envelope"></i>Contact on Mail</a></li>
+            <li><a href="mailto:info@torcinfotech.com?subject=Want to know more about this" class="envelope"> <i
+                        class="far fa-envelope"></i>Contact on Mail</a></li>
         </ul>
     </div>
     <script>
