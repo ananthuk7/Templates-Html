@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
-    
+
     <link rel="stylesheet" href="./css/login.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="./css/media.css" rel="stylesheet" type="text/css">
 
@@ -30,6 +30,11 @@
 </head>
 
 <body>
+    <div id="preLoader">
+        <div class="line1-2">
+            <img class="loaderimg" src="./img/logo/logo1.png" alt="">
+        </div>
+    </div>
     <!-- information -->
     <section id="infor-mation">
         <div class="container">
@@ -43,7 +48,7 @@
     <!-- navbar-section -->
 
     <section id="header">
-        <div class="container-xl">
+        <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light">
 
                 <a class="navbar-brand" href="./index.html"><img src="./img/logo/logo.png" height="80" width="110"
@@ -56,67 +61,140 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
-                          <!-- <li class="nav-item active">
+                        <!-- <li class="nav-item active">
                             <a class="nav-link text-white" href="#"><img src="./img/flag/united-kingdom.png" height="20"
                                     width="20" alt="flag" style="margin-top: -.25rem;"></a>
                         </li> -->
                         <li class="nav-item">
-                            <a class="nav-link  active" href="#">Dashboard</a>
+                            <a class="nav-link active" href="#">Dashboard</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Invest
-                              </a>
-                              <div class="dropdown-menu dropdown-menu1" aria-labelledby="navbarDropdown">
+                            </a>
+                            <div class="dropdown-menu dropdown-menu1" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="./proposals.html">The proposals</a>
                                 <a class="dropdown-item" href="./theenterprenour.html">The Entrepreneurs</a>
                                 <a class="dropdown-item" href="./weoffer.html">What we offer Investors</a>
                                 <a class="dropdown-item" href="./faq.html">FAQs</a>
-                              </div>
+                            </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown1" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Raise
-                              </a>
-                              <div class="dropdown-menu dropdown-menu2" aria-labelledby="navbarDropdown1">
+                            </a>
+                            <div class="dropdown-menu dropdown-menu2" aria-labelledby="navbarDropdown1">
                                 <a class="dropdown-item" href="./createprop.html">Create Proposal</a>
                                 <a class="dropdown-item" href="./offerenterprenour.html">What we offer entrepreneurs</a>
                                 <a class="dropdown-item" href="./faq.html">FAQs</a>
-                              </div>
+                            </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown2" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 How it works
-                              </a>
-                              <div class="dropdown-menu dropdown-menu3" aria-labelledby="navbarDropdown2">
+                            </a>
+                            <div class="dropdown-menu dropdown-menu3" aria-labelledby="navbarDropdown2">
                                 <a class="dropdown-item" href="./process.html">Process</a>
                                 <a class="dropdown-item" href="./casestudy.html">Case studies</a>
                                 <a class="dropdown-item" href="./faq.html">FAQs</a>
-                              </div>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a href="./blog.html" class="nav-link text-white">Blog</a>
                         </li>
-                       
                         <li class="nav-item">
-                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Currency
-                              </a>
-                              <div class="dropdown-menu dropdown-menu4" aria-labelledby="navbarDropdown3">
-                                <a class="dropdown-item" href="#">Us Dollar</a>
-                                <a class="dropdown-item" href="#">British Pound</a>
-                                <a class="dropdown-item" href="#">UAE Dirham</a>
-                                <a class="dropdown-item" href="#">Euro</a>
-                                <a class="dropdown-item" href="#">Malaysian Ringitt</a>
-                              </div>
+                            <a href="./profile.html" class="nav-link text-white">Hello User</a>
                         </li>
-
+                        <div class="div-messages-info1 ">
+                            <div class="message-box">
+                                <a class="nav-link dropdown-toggle arrow-down text-white" href="#" id="navbarDrop"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-copy"></i><span
+                                        class="badge badge-light badge-finder badge-finder1">9</span>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu4" aria-labelledby="navbarDrop">
+                                    <div class="identity">
+                                        <p>Whilst you are able to view all </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="message-box">
+                                <a class="nav-link dropdown-toggle arrow-down text-white" href="#" id="navbarDrop1"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="far fa-envelope"></i><span
+                                        class="badge badge-light badge-finder badge-finder1">9</span>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu4" aria-labelledby="navbarDrop1">
+                                    <div class="messages">
+                                        <p>messages</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="message-box">
+                                <a class="nav-link dropdown-toggle arrow-down text-white" href="#" id="navbarDrop2"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-globe"></i><span
+                                        class="badge badge-light badge-finder badge-finder1">9</span>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu4" aria-labelledby="navbarDrop2">
+                                    <div class="funding">
+                                        <p>funding</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <a href="./login.html" class="login-btn">Login/Sign Up</a>
 
                     </ul>
 
                 </div>
+
             </nav>
+
+            <!-- mobile view -->
+
+            <div class="div-messages-info2">
+                <div class="message-box">
+                    <a class="nav-link dropdown-toggle arrow-down text-white" href="#" id="navbarDro" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-copy"></i><span class="badge badge-light badge-finder badge-finder2">9</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu5" aria-labelledby="navbarDro">
+                        <div class="identity">
+                            <p>Whilst you are able to view all the proposals on the Eureeca platform, before
+                                you are able to invest, we will need to obtain some identity documents from
+                                you. You can do this via the platform by uploading your documents below.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="message-box">
+                    <a class="nav-link dropdown-toggle arrow-down text-white" href="#" id="navbarDrop1" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="far fa-envelope"></i><span
+                            class="badge badge-light badge-finder badge-finder2">9</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu6" aria-labelledby="navbarDrop1">
+                        <div class="messages">
+                            <p>messages</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="message-box">
+                    <a class="nav-link dropdown-toggle arrow-down text-white" href="#" id="navbarDrop2" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-globe"></i><span class="badge badge-light badge-finder badge-finder2">9</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu7" aria-labelledby="navbarDrop2">
+                        <div class="messages">
+                            <p>funding</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- mobile view end -->
         </div>
 
     </section>
@@ -126,21 +204,21 @@
 
     <!-- end of navbar -->
 
-   <section id="whatweoffer">
-    <div class="what-we-offer text-white d-flex align-items-center justify-content-center">
-        <h1 class="sizing"> what we offer investors</h1>
-           
-    </div>
-    <div class="container pt-4 pb-4">
-       
-        <div class="embed-responsive embed-responsive-16by9">
-            <video autoplay loop controls muted preload="auto" class="embed-responsive-item">
-                <source src="./videos/4k.mp4" type="video/mp4">
-            </video>
-        </div>
-    </div>
+    <section id="whatweoffer">
+        <div class="what-we-offer text-white d-flex align-items-center justify-content-center">
+            <h1 class="sizing"> what we offer investors</h1>
 
-   </section>
+        </div>
+        <div class="container pt-4 pb-4">
+
+            <div class="embed-responsive embed-responsive-16by9">
+                <video autoplay loop controls muted preload="auto" class="embed-responsive-item">
+                    <source src="./videos/4k.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+    </section>
 
 
     <section id="footer">
@@ -172,7 +250,7 @@
                         <span></span>
                         <ul>
                             <li>Phone : +9895065829</li>
-                <li>Email : info@torcinfotech.com</li>
+                            <li>Email : info@torcinfotech.com</li>
                         </ul>
                         <ul class="d-flex footer-icons">
                             <li><a href=""><i class="fab fa-facebook-square"></i></a> </li>
@@ -187,18 +265,32 @@
             </div>
         </div>
     </section>
-<div class="action" onclick="actionToggle();">
+
+    <section id="copyright" class="p-3" style="background-color: rgba(14, 8, 8, 0.678) ;">
+        <div class="container-fluid d-flex align-items-center justify-content-center">
+            <p class="mb-0 text-white">Copyright &copy; 2021 All Rights Reserved</p>
+        </div>
+    </section>
+    <div class="action" onclick="actionToggle();">
         <span>+</span>
-      <ul>
-            <li><a href="https://api.whatsapp.com/send?phone=919895065829&text=Hi%20There!" class="whatsapp"><i class="fab fa-whatsapp"></i>Contact on Whatsapp</a></li>
+        <ul>
+            <li><a href="https://api.whatsapp.com/send?phone=919895065829&text=Hi%20There!" class="whatsapp"><i
+                        class="fab fa-whatsapp"></i>Contact on Whatsapp</a></li>
             <li><a href="./contactus.html" class="address"> <i class="far fa-address-card"></i>Contact Us</a></li>
             </li>
             <!-- <li><a href="" class="mobile"> <i class="fas fa-mobile-alt"></i>Contact on Phone</a></li> -->
-            <li><a href="mailto:info@torcinfotech.com?subject=Want to know more about this" class="envelope"> <i class="far fa-envelope"></i>Contact on Mail</a></li>
+            <li><a href="mailto:info@torcinfotech.com?subject=Want to know more about this" class="envelope"> <i
+                        class="far fa-envelope"></i>Contact on Mail</a></li>
         </ul>
     </div>
     <script>
-        function actionToggle(){
+        var loader = document.getElementById("preLoader");
+        window.addEventListener('load',function(){
+            loader.style.display = 'none';
+        });
+    </script>
+    <script>
+        function actionToggle() {
             var action = document.querySelector('.action');
             action.classList.toggle('active');
         }

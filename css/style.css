@@ -24,6 +24,62 @@ a {
 a:hover {
   text-decoration: none;
 }
+/* loader */
+
+#preLoader {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999999;
+  transition: 0.5s;
+}
+.loaderimg {
+  width: 80px;
+  height: 80px;
+  animation: zoom 2s infinite;
+  animation-delay: 2s;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.line1-2 {
+  height: 100px;
+  width: 100px;
+  border: 3px solid rgb(97, 97, 97);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  animation: boredline 2s infinite alternate-reverse;
+  padding: 0.5rem;
+}
+@keyframes zoom {
+  0% {
+    transform: scale(1.2);
+    transform: rotate(-360deg);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+}
+@keyframes boredline {
+  0%,
+  100% {
+    border-top: 3px solid #000;
+    transform: rotate(360deg);
+  }
+}
+
+/* loaer end */
+
 .nav-item {
   margin-left: 10px;
 }
@@ -36,25 +92,27 @@ a:hover {
 .nav-link:hover {
   color: var(--background1-color) !important;
 }
+.arrow-down::after {
+  border: none;
+}
 .dropdown-menu {
+  top: 98%;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
 .dropdown-menu1 {
-  top: 98%;
-  left: 42%;
+  left: 50.5%;
 }
 .dropdown-menu2 {
-  top: 98%;
-  left: 50%;
+  left: 56.5%;
 }
 .dropdown-menu3 {
-  top: 98%;
-  left: 57.5%;
+  left: 62%;
 }
 .dropdown-menu4 {
-  top: 98%;
-  left: 76.5%;
+  width: 42%;
+  left: 58.5%;
+  padding: 0.5rem;
 }
 .dropdown-item:hover {
   color: var(--background1-color);
@@ -64,6 +122,49 @@ a:hover {
   text-decoration: none;
   background-color: #fff;
 }
+.dropdown-item:hover:nth-child(1)::before {
+  content: "// ";
+}
+.dropdown-item:hover:nth-child(2)::before {
+  content: "// ";
+}
+.dropdown-item:hover:nth-child(3)::before {
+  content: "// ";
+}
+.dropdown-item:hover:nth-child(4)::before {
+  content: "// ";
+}
+.div-messages-info2 {
+  border-top: 1px solid var(--white);
+  position: relative;
+}
+.div-messages-info1,
+.div-messages-info2 {
+  display: flex;
+}
+.div-messages-info2 > .message-box {
+  width: 100%;
+  text-align: center;
+  transition: 0.5s;
+  padding: 0.3rem 0;
+  position: relative;
+}
+.div-messages-info2 > .message-box:hover {
+  border: 1px solid var(--white);
+}
+.badge-finder {
+  background-color: transparent;
+  border: 1px solid var(--background1-color);
+  color: var(--white);
+  position: absolute;
+}
+.badge-finder1 {
+  top: 34px;
+}
+.badge-finder2 {
+  top: 6px;
+}
+
 .login-btn {
   padding: 7px 15px;
   text-transform: uppercase;
@@ -322,7 +423,7 @@ a:hover {
 .scheduleBut:hover {
   color: var(--black);
 }
-.out{
+.out {
   outline: none;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -760,17 +861,16 @@ a:hover {
   background: transparent;
   min-width: 250px;
   padding: 20px;
-  border-radius: 20px; 
+  border-radius: 20px;
   opacity: 0;
   visibility: hidden;
   transition: 0.3s;
-
 }
 .action > ul > li {
   list-style: none;
 }
 .action > ul > li > a {
-  color:transparent;
+  color: transparent;
 }
 .action.active > ul {
   visibility: visible;
@@ -778,7 +878,7 @@ a:hover {
   bottom: 65px;
   transition: 0.3s;
   border: 1px solid var(--background1-color);
-  background:#fff;
+  background: #fff;
 }
 .action.active > ul > li {
   list-style: none;
