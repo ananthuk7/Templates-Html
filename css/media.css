@@ -1,4 +1,87 @@
+@media screen and (max-width: 1500px) {
+  /* with button login */
+  /* .dropdown-menu1 {
+    left: 47%;
+  }
+  .dropdown-menu2 {
+    left: 53%;
+  }
+  .dropdown-menu3 {
+    left: 58%;
+  } */
+  .dropdown-menu1 {
+    left: 58%;
+  }
+  .dropdown-menu2 {
+    left: 64%;
+  }
+  .dropdown-menu3 {
+    left: 69.5%;
+  }
+}
+@media screen and (max-width: 1400px) {
+   /* with button login */
+  /* .dropdown-menu1 {
+    left: 43%;
+  }
+  .dropdown-menu2 {
+    left: 50%;
+  }
+  .dropdown-menu3 {
+    left: 55%;
+  } */
+  .dropdown-menu1 {
+    left: 55%;
+  }
+  .dropdown-menu2 {
+    left: 62%;
+  }
+  .dropdown-menu3 {
+    left: 68%;
+  }
+}
+@media screen and (max-width: 1300px) {
+     /* with button login */
+  /* .dropdown-menu1 {
+    left: 38%;
+  }
+  .dropdown-menu2 {
+    left: 45%;
+  }
+  .dropdown-menu3 {
+    left: 52%;
+  } */
+  .dropdown-menu1 {
+    left: 52%;
+  }
+  .dropdown-menu2 {
+    left: 58%;
+  }
+  .dropdown-menu3 {
+    left: 65%;
+  }
+  
+}
 @media screen and (max-width: 1200px) {
+    /* with button login */
+  /* .dropdown-menu1 {
+    left: 36%;
+  }
+  .dropdown-menu2 {
+    left: 40%;
+  }
+  .dropdown-menu3 {
+    left: 48%;
+  } */
+  .dropdown-menu1 {
+    left: 48%;
+  }
+  .dropdown-menu2 {
+    left: 55%;
+  }
+  .dropdown-menu3 {
+    left: 62%;
+  }
   .wrapper-width {
     width: 450px;
   }
@@ -36,6 +119,27 @@
     left:-100% !important;
   }
 }
+@media screen and (max-width: 1100px) {
+    /* with button login */
+  /* .dropdown-menu1 {
+    left: 30%;
+  }
+  .dropdown-menu2 {
+    left: 40%;
+  }
+  .dropdown-menu3 {
+    left: 48%;
+  } */
+  .dropdown-menu1 {
+    left: 43%;
+  }
+  .dropdown-menu2 {
+    left: 50%;
+  }
+  .dropdown-menu3 {
+    left: 58%;
+  }
+}
 
 @media screen and (max-width: 1019px) {
   .investo-join {
@@ -56,6 +160,17 @@
   }
 }
 @media screen and (max-width: 991px) {
+  #headers {
+    background-color: #000;
+   
+  }
+  .navbar-brand{
+    margin-left: 0;
+  }
+  .login-btn {
+    margin-right:0;
+    text-align:center;
+  }
   .business-wrapper {
     height: 100vh;
   }
@@ -109,6 +224,15 @@
   .div-messages-info1{
     display: none;
   }
+  .carousel-caption {
+    width: 60%;
+    top: 28%;
+    left: 10%;
+  }
+  .mt-176{
+    margin-top: 530px;
+  }
+
   
 }
 
@@ -137,6 +261,9 @@
 @media screen and (max-width: 786px) {
   .wrapper-width {
     width: 350px;
+  }
+  .mt-176{
+    margin-top: 525px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -183,7 +310,7 @@
     height: 500px;
   }
   .carousel-caption > h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     line-height: 1;
   }
   .button-invsto-front1 {
@@ -197,9 +324,13 @@
   }
   .carousel-caption {
     width: 60%;
-    top: 15%;
-    left: 20%;
+    top: 38%;
+    left: 10%;
   }
+  .mt-176{
+    margin-top: 290px;
+  }
+  
 }
 @media screen and (max-width: 730px) {
   .wrapper-width {
@@ -257,6 +388,11 @@
   }
   .carousel-control-next {
     top: -28%;
+  }
+  .carousel-caption {
+    width: 60%;
+    top: 45%;
+    left: 10%;
   }
 }
 @media screen and (max-width: 668px) {
@@ -351,6 +487,11 @@
 }
 }
 @media screen and (max-width: 450px) {
+  .card-invest > img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
   .business-head {
     font-size: 3rem;
   }
@@ -364,15 +505,24 @@
     padding: 2rem;
   }
   .carousel-item {
-    height: 300px;
+    height: 382px;
   }
   .carousel-item > img {
-    height: 300px;
+    height: 382px;
   }
 
   .carousel-caption > h1 {
     font-size: 2rem;
     line-height: 1;
+  }
+  .mt-176{
+    margin-top: 250px;
+  }
+  .item >h1 {
+    font-size:1.2rem;
+  }
+  .header-slider{
+    height: 150px;
   }
   .button-invsto-front1 {
     font-size: 12px;
@@ -387,7 +537,14 @@
   }
   .carousel-caption {
     width: 100%;
-    left: 0;
+    left: 5%;
+    top:38%;
+  }
+  .button-invsto-front1{ 
+    bottom:70px;
+    font-size: .6rem;
+    font-weight: bold;
+    right:20px;
   }
 
   .investo-join {
@@ -408,6 +565,9 @@
   }
   .comments > a {
     font-size: 0.6rem;
+  }
+  .contact-infor >a {
+    font-size: 0.8rem;
   }
 }
 

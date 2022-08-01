@@ -24,6 +24,9 @@ a {
 a:hover {
   text-decoration: none;
 }
+.bg-darks {
+  background-color: #000;
+}
 /* loader */
 
 #preLoader {
@@ -100,14 +103,25 @@ a:hover {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-.dropdown-menu1 {
-  left: 50.5%;
+/* with button login */
+/* .dropdown-menu1 {
+  left: 49%;
 }
 .dropdown-menu2 {
-  left: 56.5%;
+  left: 55%;
 }
 .dropdown-menu3 {
-  left: 62%;
+  left: 60.5%;
+} */
+
+.dropdown-menu1 {
+  left: 59%;
+}
+.dropdown-menu2 {
+  left: 65%;
+}
+.dropdown-menu3 {
+  left: 70%;
 }
 .dropdown-menu4 {
   width: 42%;
@@ -151,6 +165,7 @@ a:hover {
 }
 .div-messages-info2 > .message-box:hover {
   border: 1px solid var(--white);
+  background-color: #000;
 }
 .badge-finder {
   background-color: transparent;
@@ -174,33 +189,76 @@ a:hover {
   margin-left: 10px;
   font-weight: 600;
   font-size: 14px;
+  margin-right: 10px;
+ 
 }
-.login-btn:hover {
-  color: var(--black);
-}
-.carousel-caption {
-  width: 50%;
-  top: 15%;
-  left: 25%;
-}
-.carousel-caption > h1 {
-  font-size: 6rem;
-  font-weight: 600;
-  text-shadow: 5px 5px 10px #000;
-}
-/* .overlay {
-  background-color: rgba(0, 0, 0, 0.3);
-} */
-
-.button-invsto-front1 {
-  padding: 15px 30px;
+.login-btns {
+  width: 100%;
   text-transform: uppercase;
   color: var(--white);
   border-radius: 32px;
   background-color: var(--background1-color);
+  font-weight: 600;
+  font-size: 14px;
+}
+.login-btn:hover {
+  color: var(--black);
+}
+.invento-prop > p{
+  line-height: 1.1;
+  height:0;
+  overflow: hidden;
+  transition:0.8s;
+}
+
+.card-invest:hover >.invento-prop > .p1{
+  height: 90px;
+}
+.card-invest:hover >.invento-prop > .p2{
+  height: 144px;
+}
+.card-invest:hover >.invento-prop > .p3{
+  height: 125px;
+}
+.card-invest:hover >.invento-prop > .p4{
+  height: 90px;
+}
+.carousel-caption {
+  width: 50%;
+  top: 21%;
+  left: 71px;
+  text-align: left;
+}
+.carousel-caption > h1 {
+  font-size: 6rem;
+  font-weight: 600;
+  /* text-shadow: 5px 5px 10px #000; */
+}
+/* .overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+} */
+.collapse.show {
+  background-color: #000;
+  padding-bottom: 0.5rem;
+  color:#fff;
+}
+.collapse {
+  transition: 0.5s ease-in-out;
+}
+.button-invsto-front1 {
+  padding: 15px 30px;
+  text-transform: uppercase;
+  color: var(--black);
+  border-radius: 32px;
+  background-color: var(--white);
   margin-left: 10px;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
+  position: absolute;
+  bottom: 100px;
+  right: 50px;
+  z-index: 99999;
+  cursor: pointer;
 }
 .button-invsto-front2 {
   padding: 15px 30px;
@@ -223,11 +281,13 @@ a:hover {
 }
 
 .carousel-item {
-  height: 610px;
+  height: 750px;
 }
+
 .carousel-item > img {
-  height: 610px;
+  height: 750px;
 }
+
 #infor-mation {
   background-color: var(--background1-color);
   height: 50px;
@@ -241,9 +301,32 @@ a:hover {
 
 /* header section */
 #header {
-  background-color: var(--black);
+  background-color: #000;
+}
+.carsoual-div {
+  position: absolute;
+  top: -106px;
+  width: 100%;
+  /* z-index: -1; */
+}
+#headers {
+  position: sticky;
+  top: 0;
+  z-index: 999999;
+}
+#sliderss {
+  position: relative;
 }
 
+.header-slider {
+  height: 300px;
+}
+.mt-176 {
+  margin-top: 594px;
+}
+/* .hg-100{
+  height: 100vh;
+} */
 #investment {
   height: 100%;
 }
@@ -347,23 +430,15 @@ a:hover {
   flex-direction: column;
   position: relative;
   align-items: center;
+  height:300px ;
 }
 .card-invest > img {
-  width: 135px;
-  height: 135px;
+  width: 100px;
+  height: 100px;
   margin-bottom: 10px;
 }
 .invento-prop {
-  box-shadow: var(--box-shadow1);
   padding: 0.5rem;
-  transition: 0.3s ease-in;
-}
-.invento-prop > h3 {
-  transition: 0.3s ease-in cubic-bezier(0.55, 0.085, 0.68, 0.53);
-}
-.invento-prop:hover {
-  margin-top: 10px;
-  transform: scale(1.1);
 }
 /* .invento-prop:hover>.investo-border1{
   display: none;
@@ -594,13 +669,22 @@ a:hover {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .investocroud {
-  width: 30%;
+  width: 50%;
   text-align: left;
   display: flex;
+}
+.line-height{
+  line-height: 1;
+  font-weight: 600;
+  font-size: .9rem;
 }
 .investocroud > a {
   pointer-events: none;
   color: #eb0c52;
+}
+.amt{
+  font-size: .8rem;
+  padding-top: .5rem;
 }
 
 .investo-body > ul {
@@ -622,18 +706,32 @@ a:hover {
   background-position: center;
   background-size: cover;
 }
-
+.navbar-brand{
+  margin-left: 20px;
+}
 .countBox {
   height: 300px;
 }
-
+.countBox > p {
+  margin-bottom: 0;
+}
 .values {
   color: var(--background1-color);
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 700;
+  margin-bottom: 0;
 }
 .values ::after {
   content: "+";
+}
+.values1 {
+  color: var(--background1-color);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.values1 ::after {
+  content: "%";
 }
 .ccontent {
   font-weight: 700;
@@ -746,8 +844,9 @@ a:hover {
 .sliders {
   position: absolute;
   top: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../img/banner/banner1.jpg");
+  /* background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../img/banner/banner1.jpg"); */
+  background-color:#293447;
 }
 .footer-icons > li {
   margin-left: 10px;

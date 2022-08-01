@@ -16,24 +16,51 @@
     color: #fff !important;
     font-size: 4rem !important;
     position:absolute;
-    left:0;
-    top: -40px;
+    left:10px;
+    top: 25%;
   }
   .owl-carousel .owl-nav button.owl-next{
     color: #fff !important;
     font-size: 4rem !important;
     position:absolute;
-    right: 0;
-    top: -40px;
+    right: 10px;
+    top: 25%;
   }
   .owl-theme .owl-nav [class*=owl-]:hover{
     background:transparent !important;
     top: 0;
     position:absolute;
-    top: -40px;
+    top: 25%;
     
   }
 
   .owl-theme .owl-nav {
     margin-top: 0px !important;
+}
+
+@media screen and (max-width: 450px) {
+  .owl-carousel .owl-nav button.owl-prev{
+    /* color: #fff !important;
+    font-size: 4rem !important;
+    position:absolute;
+    left:10px;
+    top: 15%; */
+    display:none;
+  }
+  .owl-carousel .owl-nav button.owl-next{
+    /* color: #fff !important;
+    font-size: 4rem !important;
+    position:absolute;
+    right: 10px;
+    top: 15%; */
+    display:none;
+  }
+  .owl-theme .owl-nav [class*=owl-]:hover{
+    /* background:transparent !important;
+    top: 0;
+    position:absolute;
+    top: 15%; */
+    display:none;
+    
+  }
 }
