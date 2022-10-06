@@ -1,0 +1,16 @@
+.col-form-container{
+    width:70%;
+    padding:20px;
+}
+#contact{
+    height:200px;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../img/banner/banner-3.webp");
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    color: #fff;
+}
+label{
+    font-weight: bold;
+    font-size:1.2rem;
+}

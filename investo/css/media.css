@@ -1,0 +1,627 @@
+@media screen and (max-width: 1500px) {
+  /* with button login */
+  /* .dropdown-menu1 {
+    left: 47%;
+  }
+  .dropdown-menu2 {
+    left: 53%;
+  }
+  .dropdown-menu3 {
+    left: 58%;
+  } */
+  .dropdown-menu1 {
+    left: 58%;
+  }
+  .dropdown-menu2 {
+    left: 64%;
+  }
+  .dropdown-menu3 {
+    left: 69.5%;
+  }
+}
+@media screen and (max-width: 1400px) {
+   /* with button login */
+  /* .dropdown-menu1 {
+    left: 43%;
+  }
+  .dropdown-menu2 {
+    left: 50%;
+  }
+  .dropdown-menu3 {
+    left: 55%;
+  } */
+  .dropdown-menu1 {
+    left: 55%;
+  }
+  .dropdown-menu2 {
+    left: 62%;
+  }
+  .dropdown-menu3 {
+    left: 68%;
+  }
+}
+@media screen and (max-width: 1300px) {
+     /* with button login */
+  /* .dropdown-menu1 {
+    left: 38%;
+  }
+  .dropdown-menu2 {
+    left: 45%;
+  }
+  .dropdown-menu3 {
+    left: 52%;
+  } */
+  .dropdown-menu1 {
+    left: 52%;
+  }
+  .dropdown-menu2 {
+    left: 58%;
+  }
+  .dropdown-menu3 {
+    left: 65%;
+  }
+  
+}
+@media screen and (max-width: 1200px) {
+    /* with button login */
+  /* .dropdown-menu1 {
+    left: 36%;
+  }
+  .dropdown-menu2 {
+    left: 40%;
+  }
+  .dropdown-menu3 {
+    left: 48%;
+  } */
+  .dropdown-menu1 {
+    left: 48%;
+  }
+  .dropdown-menu2 {
+    left: 55%;
+  }
+  .dropdown-menu3 {
+    left: 62%;
+  }
+  .wrapper-width {
+    width: 450px;
+  }
+  .business-head {
+    font-size: 3.3rem;
+    font-weight: 600;
+  }
+  .business-para {
+    font-size: 1.5rem;
+  }
+  .btn-grad4 {
+    font-size: 1rem;
+    padding: 10px 40px;
+  }
+  .dropdown-menu4 {
+    width:50%;
+    left:51%;
+   
+  }
+  .dropdown-menu5{
+    top: 1px !important;
+    width:300%;
+    padding:.5rem;
+  }
+  .dropdown-menu6{
+    top: 3px !important;
+    width:300%;
+    padding:.5rem;
+    left:-50% !important;
+  }
+  .dropdown-menu7{
+    top: 3px !important;
+    width:300%;
+    padding:.5rem;
+    left:-100% !important;
+  }
+}
+@media screen and (max-width: 1100px) {
+    /* with button login */
+  /* .dropdown-menu1 {
+    left: 30%;
+  }
+  .dropdown-menu2 {
+    left: 40%;
+  }
+  .dropdown-menu3 {
+    left: 48%;
+  } */
+  .dropdown-menu1 {
+    left: 43%;
+  }
+  .dropdown-menu2 {
+    left: 50%;
+  }
+  .dropdown-menu3 {
+    left: 58%;
+  }
+}
+
+@media screen and (max-width: 1019px) {
+  .investo-join {
+    height: 300px;
+    padding: 2rem;
+    line-height: 1.2;
+  }
+  .investo-join > h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  .investo-join > p {
+    margin-bottom: 5px;
+    font-size: 1rem;
+  }
+  .wrapper-width {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #headers {
+    background-color: #000;
+   
+  }
+  .navbar-brand{
+    margin-left: 0;
+  }
+  .login-btn {
+    margin-right:0;
+    text-align:center;
+  }
+  .business-wrapper {
+    height: 100vh;
+  }
+  .business-wrapper {
+    flex-direction: column;
+  }
+  .investors {
+    width: 100%;
+    height: 50vh;
+  }
+  .business {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .wrapper-width {
+    width: 370px;
+  }
+
+  .investo-content-why {
+    width: 90%;
+  }
+  .investo-row {
+    flex-direction: column;
+  }
+  .whywork {
+    padding-left: 0.5rem;
+    background: linear-gradient(to bottom, #000 50%, rgb(35, 39, 53) 60%);
+  }
+  .p-10 {
+    padding: 4rem;
+  }
+  .investo-col {
+    width: 100%;
+  }
+  .carousel-caption > h1 {
+    font-size: 5rem;
+    line-height: 1;
+  }
+
+  .button-invsto-front1 {
+    padding: 10px 20px;
+  }
+  .button-invsto-front2 {
+    padding: 10px 20px;
+  }
+  .button-fronts-group {
+    margin-top: 50px;
+  }
+
+  .div-messages-info1{
+    display: none;
+  }
+  .carousel-caption {
+    width: 60%;
+    top: 28%;
+    left: 10%;
+  }
+  .mt-176{
+    margin-top: 530px;
+  }
+
+  
+}
+
+@media screen and (max-width: 918px) {
+  .investo-join {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 300px;
+    transform: translate(0, 0);
+  }
+  .padding-top-head {
+    padding-top: 0.3rem;
+  }
+  .investo-wrap > .investo-border {
+    top: -5px;
+  }
+  .blog-content > h1 {
+    font-size: 700;
+    font-size: 1.5rem;
+  }
+  .Blogimg img {
+    height: 250px;
+  }
+}
+@media screen and (max-width: 786px) {
+  .wrapper-width {
+    width: 350px;
+  }
+  .mt-176{
+    margin-top: 525px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #profile-main{
+    height:500px;
+    padding-top: 5rem;
+  }
+  .margin-left {
+    margin-left: 60px;
+  }
+  .footer-container {
+    margin-left: 0;
+  }
+  .invsto-writer {
+    width: 100%;
+    text-align: right;
+    padding-right: 10px;
+  }
+  .imgbox-left {
+    float: left;
+    min-height: 30vh;
+    padding: 2rem;
+    padding-left: 0;
+    padding-bottom: 1rem;
+  }
+  .imgbox-left img {
+    margin-top: 0;
+    height: 200px;
+  }
+  #comments {
+    height: 500px;
+  }
+  #totalCount {
+    height: 330px;
+  }
+  .countBox {
+    height: 150px;
+  }
+
+  .carousel-item {
+    height: 500px;
+  }
+  .carousel-item > img {
+    height: 500px;
+  }
+  .carousel-caption > h1 {
+    font-size: 3.5rem;
+    line-height: 1;
+  }
+  .button-invsto-front1 {
+    padding: 10px 20px;
+  }
+  .button-invsto-front2 {
+    padding: 10px 20px;
+  }
+  .button-fronts-group {
+    margin-top: 50px;
+  }
+  .carousel-caption {
+    width: 60%;
+    top: 38%;
+    left: 10%;
+  }
+  .mt-176{
+    margin-top: 290px;
+  }
+  
+}
+@media screen and (max-width: 730px) {
+  .wrapper-width {
+    width: 330px;
+  }
+  .what-we-offer > h1 {
+    font-size: 2rem;
+  }
+  .entre-h1 {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 724px) {
+  /* .pad-left{
+        padding-left:0;
+        padding-right:0;
+    } */
+  .pad-cont {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .investo-join {
+    border-radius: 0;
+    height: 360px;
+  }
+}
+@media screen and (max-width: 690px) {
+  .wrapper-width {
+    width: 400px;
+  }
+  .down {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 668px) {
+  .carousel-caption {
+    top: 8%;
+    width: 70%;
+    left: 15%;
+  }
+  .carousel-caption > h1 {
+    font-size: 3rem;
+    line-height: 1;
+  }
+  .button-invsto-front1 {
+    font-size: 14px;
+  }
+  .button-invsto-front2 {
+    font-size: 14px;
+  }
+  .carousel-control-prev {
+    top: -28%;
+  }
+  .carousel-control-next {
+    top: -28%;
+  }
+  .carousel-caption {
+    width: 60%;
+    top: 45%;
+    left: 10%;
+  }
+}
+@media screen and (max-width: 668px) {
+  .carousel-control-prev {
+    top: -50%;
+  }
+  .carousel-control-next {
+    top: -50%;
+  }
+  .search-faq > h1 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  #sliderss > .sliders {
+    display: none;
+  }
+
+  #footer {
+    padding: 2rem 0;
+  }
+
+  #totalCount {
+    padding: 2rem;
+    height: 550px;
+  }
+  .countBox {
+    height: 120px;
+  }
+  .carousel-control-prev {
+    top: 5%;
+  }
+  .carousel-control-next {
+    top: 5%;
+  }
+  .footer-container,.footer-container1{
+    margin-left: 2rem;
+  }
+  .footer-img {
+    height: 150px;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 556px) {
+  
+
+  /* .footer-container {
+    margin-left: ;
+  } */
+  .blog-container-group {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .blog-tags {
+    width: 100%;
+  }
+  .comments {
+    width: 100%;
+  }
+  .comments a {
+    float: right;
+  }
+}
+@media screen and (max-width: 556px) {
+  /* login */
+  .prof-follower > h4{
+    font-size:1.2rem;
+  }
+  .profile-content h1{
+    font-size: 1.3rem;
+  }
+  #login {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .form-login {
+    width: 100%;
+  }
+  .what-we-offer > .enterpre {
+    font-size: 1.5rem;
+  }
+  #profile-main{
+    height:500px;
+    padding-top: 3rem;
+  }
+  .profile-img {
+    width: 114px;
+    height: 114px;
+    margin-left: 1rem;
+    padding-right: .5rem;
+}
+}
+@media screen and (max-width: 450px) {
+  .card-invest > img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  .business-head {
+    font-size: 3rem;
+  }
+  .business-para {
+    font-size: 1.3rem;
+  }
+  .investo-content-why {
+    width: 100%;
+  }
+  .p-10 {
+    padding: 2rem;
+  }
+  .carousel-item {
+    height: 382px;
+  }
+  .carousel-item > img {
+    height: 382px;
+  }
+
+  .carousel-caption > h1 {
+    font-size: 2rem;
+    line-height: 1;
+  }
+  .mt-176{
+    margin-top: 250px;
+  }
+  .item >h1 {
+    font-size:1.2rem;
+  }
+  .header-slider{
+    height: 150px;
+  }
+  .button-invsto-front1 {
+    font-size: 12px;
+    padding: 7px 15px;
+  }
+  .button-invsto-front2 {
+    font-size: 12px;
+    padding: 7px 15px;
+  }
+  .button-fronts-group {
+    margin-top: 30px;
+  }
+  .carousel-caption {
+    width: 100%;
+    left: 5%;
+    top:38%;
+  }
+  .button-invsto-front1{ 
+    bottom:70px;
+    font-size: .6rem;
+    font-weight: bold;
+    right:20px;
+  }
+
+  .investo-join {
+    padding: 1.5rem;
+    height: 480px;
+  }
+  .joinNow {
+    font-size: 1.1rem;
+  }
+  .left {
+    width: 98px;
+  }
+  .investo-join > h2 {
+    font-size: 1.5rem;
+  }
+  .blogs-tags-main {
+    font-size: 0.6rem;
+  }
+  .comments > a {
+    font-size: 0.6rem;
+  }
+  .contact-infor >a {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 343px) {
+  .invento-forgot {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .checkbox > label {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .business-head {
+    font-size: 2rem;
+  }
+  .business-para {
+    font-size: 1rem;
+  }
+  .what-we-offer > h1 {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container-investo {
+    max-width: 1140px;
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .container-investo {
+    max-width: 960px;
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container-investo {
+    max-width: 720px;
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container-investo {
+    max-width: 540px;
+    padding: 0.5rem;
+  }
+}
+
+
+@media screen and (min-width:991px){
+  .div-messages-info2{
+    display: none;
+  }
+}

@@ -1,0 +1,126 @@
+:root {
+  --black: #000;
+  --white: #fff;
+  --background1-color: #c78947;
+  --linkedin: #0e76a8;
+  --facebook: #3b5998;
+}
+
+#register {
+  /* background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("../img/banner/banner-4.webp"); */
+  /* height: 558px; */
+  padding: 2rem;
+  display: grid;
+  place-items: center;
+}
+.input-group > input {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+}
+.form1 {
+  width: clamp(320px, 30%, 430px);
+  margin: 0 auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.35rem;
+  padding: 1.5rem;
+}
+
+.form-step {
+  display: none;
+  padding-top: 2rem;
+}
+.form-step-active {
+  display: block;
+  transition: 1s ease-in-out;
+}
+
+.input-group {
+  margin: 1rem 0;
+}
+.progress-bars {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  counter-reset: step;
+}
+.progress-bars::before,
+.progress1 {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 4px;
+  width: 100%;
+  background-color: #ccc;
+  z-index: -1;
+}
+.progress-step::after{
+  content: attr(data-title);
+  position: absolute;
+  top:calc(100% + .5rem);
+  font-size: 0.85rem;
+  color:#666;
+}
+.progress1 {
+  width: 0;
+  background-color: var(--background1-color);
+}
+.progress-step {
+  height: 2.1875rem;
+  width: 2.1875rem;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.progress-step::before {
+  counter-increment: step;
+  content: counter(step);
+}
+.progress-step-active {
+  color: #fff;
+  background-color: var(--background1-color);
+}
+
+.ln {
+  background-color: var(--linkedin);
+}
+.fb {
+  background-color: var(--facebook);
+}
+.or > .line-or {
+  display: inline-block;
+  height: 2px;
+  width: 100px;
+  margin-top: 18px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.or > .text-or {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.already-login > p > a {
+  color: var(--background1-color);
+  /* text-shadow: 10px 10px 20px #000; */
+}
+.already-login > p > a:hover {
+  color: #000;
+}
+.other-logins > a {
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+  padding: 0.5rem 0;
+  color: var(--white);
+}
+.container-logins{
+  width: clamp(320px, 30%, 430px);
+}

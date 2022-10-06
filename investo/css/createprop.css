@@ -1,0 +1,159 @@
+:root {
+  --black: #000;
+  --white: #fff;
+  --background1-color: #c78947;
+  --background2-color: #fff;
+  --percentage1-color: #35643f;
+  --percentage2-color: #81db87;
+  --percentage3-color: #eb0c52;
+  --box-shadow1: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-color-pri{
+    background-color: var(--background1-color);
+}
+.que-para-parag{
+    font-weight: 600;
+}
+.wrapper {
+  display: inline-flex;
+  height: 50px;
+  width: 300px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.wrapper .option {
+  background: #fff;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0 10px;
+  border: 2px solid lightgrey;
+  transition: all 0.3s ease;
+}
+
+.wrapper .option .dot {
+  height: 15px;
+  width: 15px;
+  background: #d9d9d9;
+  border-radius: 50%;
+  position: relative;
+}
+
+.wrapper .option .dot::before {
+  position: absolute;
+  content: "";
+  top: 1.5px;
+  left: 1.5px;
+  width: 12px;
+  height: 12px;
+  background: var(--background1-color);
+  border-radius: 50%;
+  opacity: 0;
+  transform: scale(1.3);
+  transition: all 0.3s ease;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+#option-1:checked:checked ~ .option-1,
+#option-2:checked:checked ~ .option-2,
+#option-3:checked:checked ~ .option-1,
+#option-4:checked:checked ~ .option-2,
+#option-5:checked:checked ~ .option-1,
+#option-6:checked:checked ~ .option-2,
+#option-7:checked:checked ~ .option-1,
+#option-8:checked:checked ~ .option-2,
+#option-9:checked:checked ~ .option-1,
+#option-10:checked:checked ~ .option-2,
+#option-11:checked:checked ~ .option-1,
+#option-12:checked:checked ~ .option-2,
+#option-13:checked:checked ~ .option-1,
+#option-14:checked:checked ~ .option-2,
+#option-15:checked:checked ~ .option-1,
+#option-16:checked:checked ~ .option-2 {
+  border-color: var(--background1-color);
+  background: var(--background1-color);
+}
+
+#option-1:checked:checked ~ .option-1 .dot,
+#option-2:checked:checked ~ .option-2 .dot,
+#option-3:checked:checked ~ .option-1 .dot,
+#option-4:checked:checked ~ .option-2 .dot,
+#option-5:checked:checked ~ .option-1 .dot,
+#option-6:checked:checked ~ .option-2 .dot,
+#option-7:checked:checked ~ .option-1 .dot,
+#option-8:checked:checked ~ .option-2 .dot,
+#option-9:checked:checked ~ .option-1 .dot,
+#option-10:checked:checked ~ .option-2 .dot,
+#option-11:checked:checked ~ .option-1 .dot,
+#option-12:checked:checked ~ .option-2 .dot,
+#option-13:checked:checked ~ .option-1 .dot,
+#option-14:checked:checked ~ .option-2 .dot,
+#option-15:checked:checked ~ .option-1 .dot,
+#option-16:checked:checked ~ .option-2 .dot {
+  background: #fff;
+}
+
+#option-1:checked:checked ~ .option-1 .dot::before,
+#option-2:checked:checked ~ .option-2 .dot::before,
+#option-3:checked:checked ~ .option-1 .dot::before,
+#option-4:checked:checked ~ .option-2 .dot::before,
+#option-5:checked:checked ~ .option-1 .dot::before,
+#option-6:checked:checked ~ .option-2 .dot::before,
+#option-7:checked:checked ~ .option-1 .dot::before,
+#option-8:checked:checked ~ .option-2 .dot::before,
+#option-9:checked:checked ~ .option-1 .dot::before,
+#option-10:checked:checked ~ .option-2 .dot::before,
+#option-11:checked:checked ~ .option-1 .dot::before,
+#option-12:checked:checked ~ .option-2 .dot::before,
+#option-13:checked:checked ~ .option-1 .dot::before,
+#option-14:checked:checked ~ .option-2 .dot::before,
+#option-15:checked:checked ~ .option-1 .dot::before,
+#option-16:checked:checked ~ .option-2 .dot::before {
+  opacity: 1;
+  transform: scale(0.9);
+}
+
+.wrapper .option span {
+  font-size: 20px;
+  color: #808080;
+}
+
+#option-1:checked:checked ~ .option-1 span,
+#option-2:checked:checked ~ .option-2 span,
+#option-3:checked:checked ~ .option-1 span,
+#option-4:checked:checked ~ .option-2 span,
+#option-5:checked:checked ~ .option-1 span,
+#option-6:checked:checked ~ .option-2 span,
+#option-7:checked:checked ~ .option-1 span,
+#option-8:checked:checked ~ .option-2 span,
+#option-9:checked:checked ~ .option-1 span,
+#option-10:checked:checked ~ .option-2 span,
+#option-11:checked:checked ~ .option-1 span,
+#option-12:checked:checked ~ .option-2 span,
+#option-13:checked:checked ~ .option-1 span,
+#option-14:checked:checked ~ .option-2 span,
+#option-15:checked:checked ~ .option-1 span,
+#option-16:checked:checked ~ .option-2 span {
+  color: #fff;
+}
+
+
+.que-para-head{
+    font-weight: 700;
+    font-size:1.2rem;
+    color:var(--background1-color);
+    padding: 1rem 0;
+}

@@ -1,0 +1,41 @@
+#profile-main {
+  background: linear-gradient(rgba(248, 247, 246, 0.884), rgba(240, 236, 236, 0.774)),
+    url("../img/banner/banner1.jpg");
+  background-size: cover;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  margin-left: 3rem;
+}
+.profile-img > img {
+  width: 100%;
+  object-fit: cover;
+}
+.img-proposals{
+    width: 100%;
+}
+.img-proposals > img {
+    object-fit: cover;
+    width: 100%;
+}
+.wrapper-proposal{
+    height: 479px;
+  overflow: hidden;
+  background-color: var(--white);
+}
+.investo-par {
+    height: 210px;
+    transition: 0.8s ease-out;
+    -moz-transition: 0.8s ease-out;
+    -webkit-transition: 0.8s ease-out;
+    -o-transition: 0.8s ease-out;
+    -ms-transition: 0.8s ease-out;
+    background-color: var(--white);
+  }
+
+
+  .regular-mem{
+    margin-top:-12px;
+  }

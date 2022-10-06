@@ -1,0 +1,37 @@
+body {
+  background: url("../img/bg-img/Shiny.svg");
+  background-size: cover;
+}
+
+.dashboard_content {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #c789473d;
+  border-top: none;
+  flex-direction: column;
+  color: #fff;
+  transition: 0.5s ease-in-out;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
+    url("../img/bg-img/b1.jpg");
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.dashboard_content:hover {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/bg-img/b1.jpg");
+  border: 2px solid #fff;
+  background-size: cover;
+  text-shadow: 6px 12px 6px rgba(0, 0, 0, 0.5);
+}
+.dashboard_content > h1 {
+  font-weight: 500;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2rem;
+}
+.dashboard_content > p {
+  font-size: 2rem;
+  /* text-shadow: 6px 12px 6px rgba(0, 0, 0, 0.5); */
+}
